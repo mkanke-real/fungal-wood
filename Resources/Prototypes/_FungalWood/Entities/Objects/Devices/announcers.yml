@@ -1,0 +1,25 @@
+- type: entity
+  parent: BaseItem
+  id: BugleHerald
+  name: THE BUGLE
+  description: TO ANNOUNCE THE MESSAGES OF THE KING
+  components:
+  - type: Sprite
+    sprite: Objects/Fun/Instruments/trumpet.rsi
+    state: icon
+  - type: CommunicationsConsole
+    title: comms-console-announcement-title-bugle
+    canShuttle: false
+    global: true
+    announceSentBy: false
+    initialDelay: 0
+    canAlert: false
+    sound: /Audio/_FungalWood/Announcements/heraldbugle.ogg
+  - type: ActivatableUI
+    key: enum.CommunicationsConsoleUiKey.Key
+  - type: UserInterface
+    interfaces:
+      enum.CommunicationsConsoleUiKey.Key:
+        type: CommunicationsConsoleBoundUserInterface
+      enum.WiresUiKey.Key:
+        type: WiresBoundUserInterface
