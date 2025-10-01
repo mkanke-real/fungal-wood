@@ -74,5 +74,13 @@ namespace Content.Server.Communications
         /// </summary>
         [DataField]
         public bool AnnounceSentBy = true;
+
+        /// <summary>
+        /// Can set alert level - FUNGAL WOOD CHANGE!!! I'm probably just gonna make a new UI for it or figure out
+        /// how to disable those elements. Eventually. For sure.
+        /// </summary>
+        [ViewVariables]
+        [DataField]
+        public bool CanAlert = true;
     }
 }
