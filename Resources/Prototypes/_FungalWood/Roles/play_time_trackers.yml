@@ -1,0 +1,11 @@
+- type: playTimeTracker
+  id: JobKing
+
+- type: playTimeTracker
+  id: JobGuardCaptain
+
+- type: playTimeTracker
+  id: JobGuard
+
+- type: playTimeTracker
+  id: JobPeasant
