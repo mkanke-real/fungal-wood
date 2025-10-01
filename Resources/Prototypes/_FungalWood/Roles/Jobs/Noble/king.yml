@@ -1,0 +1,11 @@
+- type: job
+  id: King
+  name: job-name-king
+  description: job-description-king
+  playTimeTracker: JobKing
+  startingGear: KingGear
+  icon: "JobIconPassenger"
+  supervisors: job-supervisors-god
+
+- type: startingGear
+  id: KingGear

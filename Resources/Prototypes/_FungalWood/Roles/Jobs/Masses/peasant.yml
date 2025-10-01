@@ -1,0 +1,11 @@
+- type: job
+  id: Peasant
+  name: job-name-peasant
+  description: job-description-peasant
+  playTimeTracker: JobPeasant
+  startingGear: PeasantGear
+  icon: "JobIconPassenger"
+  supervisors: job-supervisors-everyone
+
+- type: startingGear
+  id: PeasantGear

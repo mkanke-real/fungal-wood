@@ -1,0 +1,11 @@
+- type: job
+  id: TownGuard
+  name: job-name-guard
+  description: job-description-guard
+  playTimeTracker: JobGuard
+  startingGear: GuardGear
+  icon: "JobIconPassenger"
+  supervisors: job-supervisors-guard-captain
+
+- type: startingGear
+  id: GuardGear

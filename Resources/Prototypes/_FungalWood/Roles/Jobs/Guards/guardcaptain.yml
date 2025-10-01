@@ -1,0 +1,11 @@
+- type: job
+  id: GuardCaptain
+  name: job-name-guard-captain
+  description: job-description-guard-captain
+  playTimeTracker: JobGuardCaptain
+  startingGear: GuardCaptainGear
+  icon: "JobIconPassenger"
+  supervisors: job-supervisors-king
+
+- type: startingGear
+  id: GuardCaptainGear
