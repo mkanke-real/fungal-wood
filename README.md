@@ -1,5 +1,8 @@
 fungus
 
+<img width="509" height="509" alt="image" src="https://github.com/user-attachments/assets/39835675-47b3-4392-b2bb-adda8844279f" />
+
+
 
 ## Building
 
