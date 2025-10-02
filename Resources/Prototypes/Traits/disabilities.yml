@@ -37,14 +37,14 @@
       maxDurationOfIncident: 30
       minDurationOfIncident: 10
 
-- type: trait
-  id: Unrevivable
-  name: trait-unrevivable-name
-  description: trait-unrevivable-desc
-  category: Disabilities
-  components:
-    - type: Unrevivable
-      cloneable: true
+#- type: trait
+#  id: Unrevivable
+#  name: trait-unrevivable-name
+#  description: trait-unrevivable-desc
+#  category: Disabilities
+#  components:
+#    - type: Unrevivable
+#      cloneable: true
 
 - type: trait
   id: Monochromacy
