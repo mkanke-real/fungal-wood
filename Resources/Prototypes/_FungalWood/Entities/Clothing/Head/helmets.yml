@@ -1,0 +1,20 @@
+- type: entity
+  parent: ClothingHeadHelmetBase
+  id: ClothingHeadHelmetKnight
+  name: knight's helmet
+  description: A knight's helmet offering full coverage of the head to deflect sword and arrowfire.
+  components:
+  - type: Sprite
+    sprite: _FungalWood/Clothing/Head/Helmets/knight.rsi
+  - type: Clothing
+    sprite: _FungalWood/Clothing/Head/Helmets/knight.rsi
+  - type: IngestionBlocker
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.8
+        Slash: 0.8
+        Piercing: 0.95
+  - type: HideLayerClothing
+    layers:
+      Hair: HEAD
