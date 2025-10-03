@@ -1,0 +1,57 @@
+- type: entity
+  name: wooden kite shield
+  parent: BaseShield
+  id: ShieldWoodenKite
+  description: A kite-shaped wooden shield.
+  components:
+    - type: Sprite
+      sprite: _FungalWood/Objects/Weapons/Melee/Shields/kite.rsi
+      state: icon
+    - type: Item
+      sprite: _FungalWood/Objects/Weapons/Melee/Shields/kite.rsi
+      size: Ginormous
+      heldPrefix: null
+    - type: Clothing
+      quickEquip: false
+      slots:
+        - back
+        - suitStorage
+    - type: Blocking
+      passiveBlockModifier:
+        coefficients:
+          Blunt: 2
+          Slash: 1
+          Piercing: 0.75 # can take arrows for days baybee
+          Heat: 2
+      activeBlockModifier:
+        coefficients:
+          Blunt: 2
+          Slash: 0.8
+          Piercing: 0.2
+          Heat: 2
+        flatReductions:
+          Blunt: 1
+          Slash: 2
+          Piercing: 2
+    - type: Destructible
+      thresholds:
+        - trigger:
+            !type:DamageTrigger
+            damage: 100
+          behaviors:
+            - !type:DoActsBehavior
+              acts: [ "Destruction" ]
+        - trigger:
+            !type:DamageTrigger
+            damage: 50
+          behaviors:
+            - !type:DoActsBehavior
+              acts: [ "Destruction" ]
+            - !type:PlaySoundBehavior
+              sound:
+                collection: WoodDestroy
+            - !type:SpawnEntitiesBehavior
+              spawn:
+                MaterialWoodPlank:
+                  min: 1
+                  max: 5
