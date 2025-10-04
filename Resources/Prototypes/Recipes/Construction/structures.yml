@@ -10,33 +10,33 @@
   canBuildInImpassable: false
   conditions:
     - !type:TileNotBlocked
-
-- type: construction
-  id: ReinforcedGirder
-  graph: Girder
-  startNode: start
-  targetNode: reinforcedGirder
-  category: construction-category-structures
-  objectType: Structure
-  placementMode: SnapgridCenter
-  canRotate: false
-  canBuildInImpassable: false
-  conditions:
-    - !type:TileNotBlocked
-
-- type: construction
-  id: ClockworkGirder
-  graph: ClockworkGirder
-  startNode: start
-  targetNode: clockGirder
-  category: construction-category-structures
-  objectType: Structure
-  placementMode: SnapgridCenter
-  canRotate: false
-  canBuildInImpassable: false
-  conditions:
-    - !type:TileNotBlocked
-
+#
+#- type: construction
+#  id: ReinforcedGirder
+#  graph: Girder
+#  startNode: start
+#  targetNode: reinforcedGirder
+#  category: construction-category-structures
+#  objectType: Structure
+#  placementMode: SnapgridCenter
+#  canRotate: false
+#  canBuildInImpassable: false
+#  conditions:
+#    - !type:TileNotBlocked
+#
+#- type: construction
+#  id: ClockworkGirder
+#  graph: ClockworkGirder
+#  startNode: start
+#  targetNode: clockGirder
+#  category: construction-category-structures
+#  objectType: Structure
+#  placementMode: SnapgridCenter
+#  canRotate: false
+#  canBuildInImpassable: false
+#  conditions:
+#    - !type:TileNotBlocked
+#
 - type: construction
   id: Wall
   graph: Girder
@@ -49,32 +49,32 @@
   canBuildInImpassable: false
   conditions:
     - !type:TileNotBlocked
-
-- type: construction
-  id: ReinforcedWall
-  graph: Girder
-  startNode: start
-  targetNode: reinforcedWall
-  category: construction-category-structures
-  objectType: Structure
-  placementMode: SnapgridCenter
-  canRotate: false
-  canBuildInImpassable: false
-  conditions:
-    - !type:TileNotBlocked
-
-- type: construction
-  id: WallClock
-  graph: ClockworkGirder
-  startNode: start
-  targetNode: clockworkWall
-  category: construction-category-structures
-  objectType: Structure
-  placementMode: SnapgridCenter
-  canRotate: false
-  canBuildInImpassable: false
-  conditions:
-    - !type:TileNotBlocked
+#
+#- type: construction
+#  id: ReinforcedWall
+#  graph: Girder
+#  startNode: start
+#  targetNode: reinforcedWall
+#  category: construction-category-structures
+#  objectType: Structure
+#  placementMode: SnapgridCenter
+#  canRotate: false
+#  canBuildInImpassable: false
+#  conditions:
+#    - !type:TileNotBlocked
+#
+#- type: construction
+#  id: WallClock
+#  graph: ClockworkGirder
+#  startNode: start
+#  targetNode: clockworkWall
+#  category: construction-category-structures
+#  objectType: Structure
+#  placementMode: SnapgridCenter
+#  canRotate: false
+#  canBuildInImpassable: false
+#  conditions:
+#    - !type:TileNotBlocked
 
 - type: construction
   id: WoodWall
@@ -89,18 +89,18 @@
   conditions:
     - !type:TileNotBlocked
 
-- type: construction
-  id: UraniumWall
-  graph: Girder
-  startNode: start
-  targetNode: uraniumWall
-  category: construction-category-structures
-  objectType: Structure
-  placementMode: SnapgridCenter
-  canRotate: false
-  canBuildInImpassable: false
-  conditions:
-    - !type:TileNotBlocked
+#- type: construction
+#  id: UraniumWall
+#  graph: Girder
+#  startNode: start
+#  targetNode: uraniumWall
+#  category: construction-category-structures
+#  objectType: Structure
+#  placementMode: SnapgridCenter
+#  canRotate: false
+#  canBuildInImpassable: false
+#  conditions:
+#    - !type:TileNotBlocked
 
 - type: construction
   id: SilverWall
@@ -115,31 +115,31 @@
   conditions:
     - !type:TileNotBlocked
 
-- type: construction
-  id: PlasticWall
-  graph: Girder
-  startNode: start
-  targetNode: plasticWall
-  category: construction-category-structures
-  objectType: Structure
-  placementMode: SnapgridCenter
-  canRotate: false
-  canBuildInImpassable: false
-  conditions:
-    - !type:TileNotBlocked
-
-- type: construction
-  id: PlasmaWall
-  graph: Girder
-  startNode: start
-  targetNode: plasmaWall
-  category: construction-category-structures
-  objectType: Structure
-  placementMode: SnapgridCenter
-  canRotate: false
-  canBuildInImpassable: false
-  conditions:
-    - !type:TileNotBlocked
+#- type: construction
+#  id: PlasticWall
+#  graph: Girder
+#  startNode: start
+#  targetNode: plasticWall
+#  category: construction-category-structures
+#  objectType: Structure
+#  placementMode: SnapgridCenter
+#  canRotate: false
+#  canBuildInImpassable: false
+#  conditions:
+#    - !type:TileNotBlocked
+#
+#- type: construction
+#  id: PlasmaWall
+#  graph: Girder
+#  startNode: start
+#  targetNode: plasmaWall
+#  category: construction-category-structures
+#  objectType: Structure
+#  placementMode: SnapgridCenter
+#  canRotate: false
+#  canBuildInImpassable: false
+#  conditions:
+#    - !type:TileNotBlocked
 
 - type: construction
   id: GoldWall
@@ -154,45 +154,45 @@
   conditions:
     - !type:TileNotBlocked
 
-- type: construction
-  id: ShuttleWall
-  graph: Girder
-  startNode: start
-  targetNode: shuttleWall
-  category: construction-category-structures
-  objectType: Structure
-  placementMode: SnapgridCenter
-  canRotate: false
-  canBuildInImpassable: false
-  conditions:
-    - !type:TileNotBlocked
-
-- type: construction
-  id: DiagonalShuttleWall
-  name: construction-recipe-diagonal-shuttle-wall
-  graph: Girder
-  startNode: start
-  targetNode: diagonalshuttleWall
-  category: construction-category-structures
-  objectType: Structure
-  placementMode: SnapgridCenter
-  canRotate: true
-  canBuildInImpassable: false
-  conditions:
-    - !type:TileNotBlocked
-
-- type: construction
-  id: ClownWall
-  graph: Girder
-  startNode: start
-  targetNode: bananiumWall
-  category: construction-category-structures
-  objectType: Structure
-  placementMode: SnapgridCenter
-  canRotate: false
-  canBuildInImpassable: false
-  conditions:
-    - !type:TileNotBlocked
+#- type: construction
+#  id: ShuttleWall
+#  graph: Girder
+#  startNode: start
+#  targetNode: shuttleWall
+#  category: construction-category-structures
+#  objectType: Structure
+#  placementMode: SnapgridCenter
+#  canRotate: false
+#  canBuildInImpassable: false
+#  conditions:
+#    - !type:TileNotBlocked
+#
+#- type: construction
+#  id: DiagonalShuttleWall
+#  name: construction-recipe-diagonal-shuttle-wall
+#  graph: Girder
+#  startNode: start
+#  targetNode: diagonalshuttleWall
+#  category: construction-category-structures
+#  objectType: Structure
+#  placementMode: SnapgridCenter
+#  canRotate: true
+#  canBuildInImpassable: false
+#  conditions:
+#    - !type:TileNotBlocked
+#
+#- type: construction
+#  id: ClownWall
+#  graph: Girder
+#  startNode: start
+#  targetNode: bananiumWall
+#  category: construction-category-structures
+#  objectType: Structure
+#  placementMode: SnapgridCenter
+#  canRotate: false
+#  canBuildInImpassable: false
+#  conditions:
+#    - !type:TileNotBlocked
 
 - type: construction
   id: MeatWall
@@ -207,68 +207,68 @@
   conditions:
   - !type:TileNotBlocked
 
-- type: construction
-  id: Cardwall
-  graph: Cardwall
-  startNode: start
-  targetNode: cardwall
-  category: construction-category-structures
-  conditions:
-  - !type:TileNotBlocked
-    failIfSpace: false
-  objectType: Structure
-  placementMode: SnapgridCenter
-  canRotate: false
-
-- type: construction
-  id: Grille
-  graph: Grille
-  startNode: start
-  targetNode: grille
-  category: construction-category-structures
-  conditions:
-    - !type:TileNotBlocked
-      failIfSpace: false
-  objectType: Structure
-  placementMode: SnapgridCenter
-  canRotate: false
-
-- type: construction
-  id: ClockGrille
-  graph: ClockGrille
-  startNode: start
-  targetNode: clockGrille
-  category: construction-category-structures
-  conditions:
-    - !type:TileNotBlocked
-      failIfSpace: false
-  objectType: Structure
-  placementMode: SnapgridCenter
-  canRotate: false
-
-- type: construction
-  id: GrilleDiagonal
-  graph: GrilleDiagonal
-  startNode: start
-  targetNode: grilleDiagonal
-  category: construction-category-structures
-  conditions:
-    - !type:TileNotBlocked
-      failIfSpace: false
-  objectType: Structure
-  placementMode: SnapgridCenter
-
-- type: construction
-  id: ClockworkGrilleDiagonal
-  graph: GrilleDiagonal
-  startNode: start
-  targetNode: clockworkGrilleDiagonal
-  category: construction-category-structures
-  conditions:
-    - !type:TileNotBlocked
-      failIfSpace: false
-  objectType: Structure
-  placementMode: SnapgridCenter
+#- type: construction
+#  id: Cardwall
+#  graph: Cardwall
+#  startNode: start
+#  targetNode: cardwall
+#  category: construction-category-structures
+#  conditions:
+#  - !type:TileNotBlocked
+#    failIfSpace: false
+#  objectType: Structure
+#  placementMode: SnapgridCenter
+#  canRotate: false
+#
+#- type: construction
+#  id: Grille
+#  graph: Grille
+#  startNode: start
+#  targetNode: grille
+#  category: construction-category-structures
+#  conditions:
+#    - !type:TileNotBlocked
+#      failIfSpace: false
+#  objectType: Structure
+#  placementMode: SnapgridCenter
+#  canRotate: false
+#
+#- type: construction
+#  id: ClockGrille
+#  graph: ClockGrille
+#  startNode: start
+#  targetNode: clockGrille
+#  category: construction-category-structures
+#  conditions:
+#    - !type:TileNotBlocked
+#      failIfSpace: false
+#  objectType: Structure
+#  placementMode: SnapgridCenter
+#  canRotate: false
+#
+#- type: construction
+#  id: GrilleDiagonal
+#  graph: GrilleDiagonal
+#  startNode: start
+#  targetNode: grilleDiagonal
+#  category: construction-category-structures
+#  conditions:
+#    - !type:TileNotBlocked
+#      failIfSpace: false
+#  objectType: Structure
+#  placementMode: SnapgridCenter
+#
+#- type: construction
+#  id: ClockworkGrilleDiagonal
+#  graph: GrilleDiagonal
+#  startNode: start
+#  targetNode: clockworkGrilleDiagonal
+#  category: construction-category-structures
+#  conditions:
+#    - !type:TileNotBlocked
+#      failIfSpace: false
+#  objectType: Structure
+#  placementMode: SnapgridCenter
 
 - type: construction
   id: Window
@@ -368,75 +368,75 @@
   objectType: Structure
   placementMode: SnapgridCenter
 
-- type: construction
-  id: PlasmaWindow
-  graph: Window
-  startNode: start
-  targetNode: plasmaWindow
-  category: construction-category-structures
-  canBuildInImpassable: true
-  conditions:
-    - !type:EmptyOrWindowValidInTile
-    - !type:NoWindowsInTile
-  objectType: Structure
-  placementMode: SnapgridCenter
-  canRotate: false
-
-- type: construction
-  id: ReinforcedPlasmaWindow
-  graph: Window
-  startNode: start
-  targetNode: reinforcedPlasmaWindow
-  category: construction-category-structures
-  canBuildInImpassable: true
-  conditions:
-    - !type:EmptyOrWindowValidInTile
-    - !type:NoWindowsInTile
-  objectType: Structure
-  placementMode: SnapgridCenter
-  canRotate: false
-
-- type: construction
-  id: ShuttleWindow
-  graph: Window
-  startNode: start
-  targetNode: shuttleWindow
-  category: construction-category-structures
-  canBuildInImpassable: true
-  conditions:
-    - !type:EmptyOrWindowValidInTile
-    - !type:NoWindowsInTile
-  objectType: Structure
-  placementMode: SnapgridCenter
-  canRotate: false
-
-- type: construction
-  id: PlasmaWindowDiagonal
-  name: construction-recipe-plasma-window-diagonal
-  graph: WindowDiagonal
-  startNode: start
-  targetNode: plasmaWindowDiagonal
-  category: construction-category-structures
-  canBuildInImpassable: true
-  conditions:
-    - !type:EmptyOrWindowValidInTile
-    - !type:NoWindowsInTile
-  objectType: Structure
-  placementMode: SnapgridCenter
-
-- type: construction
-  id: ReinforcedPlasmaWindowDiagonal
-  name: construction-recipe-reinforced-plasma-window-diagonal
-  graph: WindowDiagonal
-  startNode: start
-  targetNode: reinforcedPlasmaWindowDiagonal
-  category: construction-category-structures
-  canBuildInImpassable: true
-  conditions:
-    - !type:EmptyOrWindowValidInTile
-    - !type:NoWindowsInTile
-  objectType: Structure
-  placementMode: SnapgridCenter
+#- type: construction
+#  id: PlasmaWindow
+#  graph: Window
+#  startNode: start
+#  targetNode: plasmaWindow
+#  category: construction-category-structures
+#  canBuildInImpassable: true
+#  conditions:
+#    - !type:EmptyOrWindowValidInTile
+#    - !type:NoWindowsInTile
+#  objectType: Structure
+#  placementMode: SnapgridCenter
+#  canRotate: false
+#
+#- type: construction
+#  id: ReinforcedPlasmaWindow
+#  graph: Window
+#  startNode: start
+#  targetNode: reinforcedPlasmaWindow
+#  category: construction-category-structures
+#  canBuildInImpassable: true
+#  conditions:
+#    - !type:EmptyOrWindowValidInTile
+#    - !type:NoWindowsInTile
+#  objectType: Structure
+#  placementMode: SnapgridCenter
+#  canRotate: false
+#
+#- type: construction
+#  id: ShuttleWindow
+#  graph: Window
+#  startNode: start
+#  targetNode: shuttleWindow
+#  category: construction-category-structures
+#  canBuildInImpassable: true
+#  conditions:
+#    - !type:EmptyOrWindowValidInTile
+#    - !type:NoWindowsInTile
+#  objectType: Structure
+#  placementMode: SnapgridCenter
+#  canRotate: false
+#
+#- type: construction
+#  id: PlasmaWindowDiagonal
+#  name: construction-recipe-plasma-window-diagonal
+#  graph: WindowDiagonal
+#  startNode: start
+#  targetNode: plasmaWindowDiagonal
+#  category: construction-category-structures
+#  canBuildInImpassable: true
+#  conditions:
+#    - !type:EmptyOrWindowValidInTile
+#    - !type:NoWindowsInTile
+#  objectType: Structure
+#  placementMode: SnapgridCenter
+#
+#- type: construction
+#  id: ReinforcedPlasmaWindowDiagonal
+#  name: construction-recipe-reinforced-plasma-window-diagonal
+#  graph: WindowDiagonal
+#  startNode: start
+#  targetNode: reinforcedPlasmaWindowDiagonal
+#  category: construction-category-structures
+#  canBuildInImpassable: true
+#  conditions:
+#    - !type:EmptyOrWindowValidInTile
+#    - !type:NoWindowsInTile
+#  objectType: Structure
+#  placementMode: SnapgridCenter
 
 - type: construction
   id: WindowDirectional
@@ -477,195 +477,195 @@
   objectType: Structure
   placementMode: SnapgridCenter
 
-- type: construction
-  id: PlasmaWindowDirectional
-  graph: WindowDirectional
-  startNode: start
-  targetNode: plasmaWindowDirectional
-  category: construction-category-structures
-  canBuildInImpassable: true
-  conditions:
-    - !type:EmptyOrWindowValidInTile
-    - !type:NoWindowsInTile
-  objectType: Structure
-  placementMode: SnapgridCenter
-
-- type: construction
-  id: PlasmaReinforcedWindowDirectional
-  graph: WindowDirectional
-  startNode: start
-  targetNode: plasmaReinforcedWindowDirectional
-  category: construction-category-structures
-  canBuildInImpassable: true
-  conditions:
-    - !type:EmptyOrWindowValidInTile
-    - !type:NoWindowsInTile
-  objectType: Structure
-  placementMode: SnapgridCenter
-
-- type: construction
-  id: UraniumWindow
-  graph: Window
-  startNode: start
-  targetNode: uraniumWindow
-  category: construction-category-structures
-  canBuildInImpassable: true
-  conditions:
-    - !type:EmptyOrWindowValidInTile
-    - !type:NoWindowsInTile
-  objectType: Structure
-  placementMode: SnapgridCenter
-  canRotate: false
-
-- type: construction
-  id: ReinforcedUraniumWindow
-  graph: Window
-  startNode: start
-  targetNode: reinforcedUraniumWindow
-  category: construction-category-structures
-  canBuildInImpassable: true
-  conditions:
-    - !type:EmptyOrWindowValidInTile
-    - !type:NoWindowsInTile
-  objectType: Structure
-  placementMode: SnapgridCenter
-  canRotate: false
-
-- type: construction
-  id: UraniumWindowDiagonal
-  name: construction-recipe-uranium-window-diagonal
-  graph: WindowDiagonal
-  startNode: start
-  targetNode: uraniumWindowDiagonal
-  category: construction-category-structures
-  canBuildInImpassable: true
-  conditions:
-    - !type:EmptyOrWindowValidInTile
-    - !type:NoWindowsInTile
-  objectType: Structure
-  placementMode: SnapgridCenter
-
-- type: construction
-  id: ReinforcedUraniumWindowDiagonal
-  name: construction-recipe-reinforced-uranium-window-diagonal
-  graph: WindowDiagonal
-  startNode: start
-  targetNode: reinforcedUraniumWindowDiagonal
-  category: construction-category-structures
-  canBuildInImpassable: true
-  conditions:
-    - !type:EmptyOrWindowValidInTile
-    - !type:NoWindowsInTile
-  objectType: Structure
-  placementMode: SnapgridCenter
-
-- type: construction
-  id: Firelock
-  graph: Firelock
-  startNode: start
-  targetNode: Firelock
-  category: construction-category-structures
-  objectType: Structure
-  placementMode: SnapgridCenter
-  canRotate: false
-  canBuildInImpassable: false
-  conditions:
-    - !type:TileNotBlocked
-
-- type: construction
-  id: FirelockGlass
-  graph: Firelock
-  startNode: start
-  targetNode: FirelockGlass
-  category: construction-category-structures
-  objectType: Structure
-  placementMode: SnapgridCenter
-  canRotate: false
-  canBuildInImpassable: false
-  conditions:
-    - !type:TileNotBlocked
-
-- type: construction
-  id: FirelockEdge
-  name: construction-recipe-firelock-edge
-  graph: Firelock
-  startNode: start
-  targetNode: FirelockEdge
-  category: construction-category-structures
-  placementMode: SnapgridCenter
-  objectType: Structure
-  canBuildInImpassable: false
-  conditions:
-    - !type:TileNotBlocked
-
-- type: construction
-  id: Turnstile
-  graph: Turnstile
-  startNode: start
-  targetNode: turnstile
-  category: construction-category-structures
-  objectType: Structure
-  placementMode: SnapgridCenter
-  canBuildInImpassable: false
-  conditions:
-  - !type:TileNotBlocked
-
-- type: construction
-  id: Shutters
-  graph: Shutters
-  startNode: start
-  targetNode: Shutters
-  category: construction-category-structures
-  objectType: Structure
-  placementMode: SnapgridCenter
-  canBuildInImpassable: true
-
-- type: construction
-  id: ShuttersWindow
-  graph: Shutters
-  startNode: start
-  targetNode: ShuttersWindow
-  category: construction-category-structures
-  objectType: Structure
-  placementMode: SnapgridCenter
-  canBuildInImpassable: true
-
-- type: construction
-  id: ShuttersRadiation
-  graph: Shutters
-  startNode: start
-  targetNode: ShuttersRadiation
-  category: construction-category-structures
-  objectType: Structure
-  placementMode: SnapgridCenter
-  canBuildInImpassable: true
-
-- type: construction
-  id: BlastDoor
-  graph: BlastDoor
-  startNode: start
-  targetNode: blastdoor
-  category: construction-category-structures
-  objectType: Structure
-  placementMode: SnapgridCenter
-  canBuildInImpassable: true
-
-- type: construction
-  id: Catwalk
-  graph: Catwalk
-  startNode: start
-  targetNode: Catwalk
-  category: construction-category-structures
-  conditions:
-    - !type:TileNotBlocked
-      failIfSpace: false
-    - !type:TileType
-      targets:
-        - Lattice
-        - Plating
-  objectType: Structure
-  placementMode: SnapgridCenter
-  canBuildInImpassable: false
+#- type: construction
+#  id: PlasmaWindowDirectional
+#  graph: WindowDirectional
+#  startNode: start
+#  targetNode: plasmaWindowDirectional
+#  category: construction-category-structures
+#  canBuildInImpassable: true
+#  conditions:
+#    - !type:EmptyOrWindowValidInTile
+#    - !type:NoWindowsInTile
+#  objectType: Structure
+#  placementMode: SnapgridCenter
+#
+#- type: construction
+#  id: PlasmaReinforcedWindowDirectional
+#  graph: WindowDirectional
+#  startNode: start
+#  targetNode: plasmaReinforcedWindowDirectional
+#  category: construction-category-structures
+#  canBuildInImpassable: true
+#  conditions:
+#    - !type:EmptyOrWindowValidInTile
+#    - !type:NoWindowsInTile
+#  objectType: Structure
+#  placementMode: SnapgridCenter
+#
+#- type: construction
+#  id: UraniumWindow
+#  graph: Window
+#  startNode: start
+#  targetNode: uraniumWindow
+#  category: construction-category-structures
+#  canBuildInImpassable: true
+#  conditions:
+#    - !type:EmptyOrWindowValidInTile
+#    - !type:NoWindowsInTile
+#  objectType: Structure
+#  placementMode: SnapgridCenter
+#  canRotate: false
+#
+#- type: construction
+#  id: ReinforcedUraniumWindow
+#  graph: Window
+#  startNode: start
+#  targetNode: reinforcedUraniumWindow
+#  category: construction-category-structures
+#  canBuildInImpassable: true
+#  conditions:
+#    - !type:EmptyOrWindowValidInTile
+#    - !type:NoWindowsInTile
+#  objectType: Structure
+#  placementMode: SnapgridCenter
+#  canRotate: false
+#
+#- type: construction
+#  id: UraniumWindowDiagonal
+#  name: construction-recipe-uranium-window-diagonal
+#  graph: WindowDiagonal
+#  startNode: start
+#  targetNode: uraniumWindowDiagonal
+#  category: construction-category-structures
+#  canBuildInImpassable: true
+#  conditions:
+#    - !type:EmptyOrWindowValidInTile
+#    - !type:NoWindowsInTile
+#  objectType: Structure
+#  placementMode: SnapgridCenter
+#
+#- type: construction
+#  id: ReinforcedUraniumWindowDiagonal
+#  name: construction-recipe-reinforced-uranium-window-diagonal
+#  graph: WindowDiagonal
+#  startNode: start
+#  targetNode: reinforcedUraniumWindowDiagonal
+#  category: construction-category-structures
+#  canBuildInImpassable: true
+#  conditions:
+#    - !type:EmptyOrWindowValidInTile
+#    - !type:NoWindowsInTile
+#  objectType: Structure
+#  placementMode: SnapgridCenter
+#
+#- type: construction
+#  id: Firelock
+#  graph: Firelock
+#  startNode: start
+#  targetNode: Firelock
+#  category: construction-category-structures
+#  objectType: Structure
+#  placementMode: SnapgridCenter
+#  canRotate: false
+#  canBuildInImpassable: false
+#  conditions:
+#    - !type:TileNotBlocked
+#
+#- type: construction
+#  id: FirelockGlass
+#  graph: Firelock
+#  startNode: start
+#  targetNode: FirelockGlass
+#  category: construction-category-structures
+#  objectType: Structure
+#  placementMode: SnapgridCenter
+#  canRotate: false
+#  canBuildInImpassable: false
+#  conditions:
+#    - !type:TileNotBlocked
+#
+#- type: construction
+#  id: FirelockEdge
+#  name: construction-recipe-firelock-edge
+#  graph: Firelock
+#  startNode: start
+#  targetNode: FirelockEdge
+#  category: construction-category-structures
+#  placementMode: SnapgridCenter
+#  objectType: Structure
+#  canBuildInImpassable: false
+#  conditions:
+#    - !type:TileNotBlocked
+#
+#- type: construction
+#  id: Turnstile
+#  graph: Turnstile
+#  startNode: start
+#  targetNode: turnstile
+#  category: construction-category-structures
+#  objectType: Structure
+#  placementMode: SnapgridCenter
+#  canBuildInImpassable: false
+#  conditions:
+#  - !type:TileNotBlocked
+#
+#- type: construction
+#  id: Shutters
+#  graph: Shutters
+#  startNode: start
+#  targetNode: Shutters
+#  category: construction-category-structures
+#  objectType: Structure
+#  placementMode: SnapgridCenter
+#  canBuildInImpassable: true
+#
+#- type: construction
+#  id: ShuttersWindow
+#  graph: Shutters
+#  startNode: start
+#  targetNode: ShuttersWindow
+#  category: construction-category-structures
+#  objectType: Structure
+#  placementMode: SnapgridCenter
+#  canBuildInImpassable: true
+#
+#- type: construction
+#  id: ShuttersRadiation
+#  graph: Shutters
+#  startNode: start
+#  targetNode: ShuttersRadiation
+#  category: construction-category-structures
+#  objectType: Structure
+#  placementMode: SnapgridCenter
+#  canBuildInImpassable: true
+#
+#- type: construction
+#  id: BlastDoor
+#  graph: BlastDoor
+#  startNode: start
+#  targetNode: blastdoor
+#  category: construction-category-structures
+#  objectType: Structure
+#  placementMode: SnapgridCenter
+#  canBuildInImpassable: true
+#
+#- type: construction
+#  id: Catwalk
+#  graph: Catwalk
+#  startNode: start
+#  targetNode: Catwalk
+#  category: construction-category-structures
+#  conditions:
+#    - !type:TileNotBlocked
+#      failIfSpace: false
+#    - !type:TileType
+#      targets:
+#        - Lattice
+#        - Plating
+#  objectType: Structure
+#  placementMode: SnapgridCenter
+#  canBuildInImpassable: false
 
 - type: construction
   id: FloorBananium
@@ -708,107 +708,107 @@
   conditions:
     - !type:TileNotBlocked
 
-- type: construction
-  id: Railing
-  graph: Railing
-  startNode: start
-  targetNode: railing
-  category: construction-category-structures
-  objectType: Structure
-  placementMode: SnapgridCenter
-  canBuildInImpassable: false
-  conditions:
-  - !type:TileNotBlocked
-
-- type: construction
-  id: RailingCorner
-  name: construction-recipe-railing-corner
-  graph: Railing
-  startNode: start
-  targetNode: railingCorner
-  category: construction-category-structures
-  objectType: Structure
-  placementMode: SnapgridCenter
-  canBuildInImpassable: false
-  conditions:
-  - !type:TileNotBlocked
-
-- type: construction
-  id: RailingCornerSmall
-  name: construction-recipe-railing-corner-small
-  graph: Railing
-  startNode: start
-  targetNode: railingCornerSmall
-  category: construction-category-structures
-  objectType: Structure
-  placementMode: SnapgridCenter
-  canBuildInImpassable: false
-  conditions:
-  - !type:TileNotBlocked
-
-- type: construction
-  id: RailingRound
-  name: construction-recipe-railing-round
-  graph: Railing
-  startNode: start
-  targetNode: railingRound
-  category: construction-category-structures
-  objectType: Structure
-  placementMode: SnapgridCenter
-  canBuildInImpassable: false
-  conditions:
-  - !type:TileNotBlocked
-
-# Chain link fencing
-- type: construction
-  id: FenceMetal
-  graph: FenceMetal
-  startNode: start
-  targetNode: straight
-  category: construction-category-structures
-  objectType: Structure
-  placementMode: SnapgridCenter
-  canBuildInImpassable: false
-  conditions:
-  - !type:TileNotBlocked
-
-- type: construction
-  id: FenceMetalCorner
-  name: construction-recipe-fence-metal-corner
-  graph: FenceMetal
-  startNode: start
-  targetNode: corner
-  category: construction-category-structures
-  objectType: Structure
-  placementMode: SnapgridCenter
-  canBuildInImpassable: false
-  conditions:
-  - !type:TileNotBlocked
-
-- type: construction
-  id: FenceMetalEnd
-  name: construction-recipe-fence-metal-end
-  graph: FenceMetal
-  startNode: start
-  targetNode: end
-  category: construction-category-structures
-  objectType: Structure
-  placementMode: SnapgridCenter
-  canBuildInImpassable: false
-  conditions:
-  - !type:TileNotBlocked
-
-- type: construction
-  id: FenceMetalGate
-  graph: FenceMetal
-  startNode: start
-  targetNode: gate
-  category: construction-category-structures
-  objectType: Structure
-  placementMode: SnapgridCenter
-  canBuildInImpassable: false
-  conditions:
-  - !type:TileNotBlocked
+#- type: construction
+#  id: Railing
+#  graph: Railing
+#  startNode: start
+#  targetNode: railing
+#  category: construction-category-structures
+#  objectType: Structure
+#  placementMode: SnapgridCenter
+#  canBuildInImpassable: false
+#  conditions:
+#  - !type:TileNotBlocked
+#
+#- type: construction
+#  id: RailingCorner
+#  name: construction-recipe-railing-corner
+#  graph: Railing
+#  startNode: start
+#  targetNode: railingCorner
+#  category: construction-category-structures
+#  objectType: Structure
+#  placementMode: SnapgridCenter
+#  canBuildInImpassable: false
+#  conditions:
+#  - !type:TileNotBlocked
+#
+#- type: construction
+#  id: RailingCornerSmall
+#  name: construction-recipe-railing-corner-small
+#  graph: Railing
+#  startNode: start
+#  targetNode: railingCornerSmall
+#  category: construction-category-structures
+#  objectType: Structure
+#  placementMode: SnapgridCenter
+#  canBuildInImpassable: false
+#  conditions:
+#  - !type:TileNotBlocked
+#
+#- type: construction
+#  id: RailingRound
+#  name: construction-recipe-railing-round
+#  graph: Railing
+#  startNode: start
+#  targetNode: railingRound
+#  category: construction-category-structures
+#  objectType: Structure
+#  placementMode: SnapgridCenter
+#  canBuildInImpassable: false
+#  conditions:
+#  - !type:TileNotBlocked
+#
+## Chain link fencing
+#- type: construction
+#  id: FenceMetal
+#  graph: FenceMetal
+#  startNode: start
+#  targetNode: straight
+#  category: construction-category-structures
+#  objectType: Structure
+#  placementMode: SnapgridCenter
+#  canBuildInImpassable: false
+#  conditions:
+#  - !type:TileNotBlocked
+#
+#- type: construction
+#  id: FenceMetalCorner
+#  name: construction-recipe-fence-metal-corner
+#  graph: FenceMetal
+#  startNode: start
+#  targetNode: corner
+#  category: construction-category-structures
+#  objectType: Structure
+#  placementMode: SnapgridCenter
+#  canBuildInImpassable: false
+#  conditions:
+#  - !type:TileNotBlocked
+#
+#- type: construction
+#  id: FenceMetalEnd
+#  name: construction-recipe-fence-metal-end
+#  graph: FenceMetal
+#  startNode: start
+#  targetNode: end
+#  category: construction-category-structures
+#  objectType: Structure
+#  placementMode: SnapgridCenter
+#  canBuildInImpassable: false
+#  conditions:
+#  - !type:TileNotBlocked
+#
+#- type: construction
+#  id: FenceMetalGate
+#  graph: FenceMetal
+#  startNode: start
+#  targetNode: gate
+#  category: construction-category-structures
+#  objectType: Structure
+#  placementMode: SnapgridCenter
+#  canBuildInImpassable: false
+#  conditions:
+#  - !type:TileNotBlocked
 
 #Wooden fence high
 - type: construction
@@ -939,202 +939,202 @@
   conditions:
   - !type:TileNotBlocked
 
-#Airlocks
-- type: construction
-  id: Airlock
-  graph: Airlock
-  startNode: start
-  targetNode: airlock
-  category: construction-category-structures
-  objectType: Structure
-  placementMode: SnapgridCenter
-  canBuildInImpassable: false
-  conditions:
-    - !type:TileNotBlocked
-
-- type: construction
-  id: AirlockGlass
-  graph: Airlock
-  startNode: start
-  targetNode: glassAirlock
-  category: construction-category-structures
-  objectType: Structure
-  placementMode: SnapgridCenter
-  canBuildInImpassable: false
-  conditions:
-    - !type:TileNotBlocked
-
-- type: construction
-  id: PinionAirlock
-  name: construction-recipe-pinion-airlock
-  graph: PinionAirlock
-  startNode: start
-  targetNode: airlock
-  category: construction-category-structures
-  objectType: Structure
-  placementMode: SnapgridCenter
-  canBuildInImpassable: false
-  conditions:
-    - !type:TileNotBlocked
-
-- type: construction
-  id: PinionAirlockGlass
-  name: construction-recipe-pinion-airlock-glass
-  graph: PinionAirlock
-  startNode: start
-  targetNode: glassAirlock
-  category: construction-category-structures
-  objectType: Structure
-  placementMode: SnapgridCenter
-  canBuildInImpassable: false
-  conditions:
-    - !type:TileNotBlocked
-
-- type: construction
-  id: AirlockShuttle
-  graph: AirlockShuttle
-  startNode: start
-  targetNode: airlock
-  category: construction-category-structures
-  #  state: assembly
-  objectType: Structure
-  placementMode: SnapgridCenter
-  canBuildInImpassable: false
-  conditions:
-  - !type:TileNotBlocked
-
-- type: construction
-  id: AirlockGlassShuttle
-  name: construction-recipe-airlock-glass-shuttle
-  graph: AirlockShuttle
-  startNode: start
-  targetNode: airlockGlass
-  category: construction-category-structures
-  #  state: assembly
-  objectType: Structure
-  placementMode: SnapgridCenter
-  canBuildInImpassable: false
-  conditions:
-    - !type:TileNotBlocked
-
-- type: construction
-  id: Windoor
-  graph: Windoor
-  startNode: start
-  targetNode: windoor
-  category: construction-category-structures
-  objectType: Structure
-  placementMode: SnapgridCenter
-  canBuildInImpassable: false
-  conditions:
-    - !type:TileNotBlocked
-
-- type: construction
-  id: SecureWindoor
-  graph: Windoor
-  startNode: start
-  targetNode: windoorSecure
-  category: construction-category-structures
-  objectType: Structure
-  placementMode: SnapgridCenter
-  canBuildInImpassable: false
-  conditions:
-    - !type:TileNotBlocked
-
-- type: construction
-  id: ClockworkWindoor
-  graph: Windoor
-  startNode: start
-  targetNode: windoorClockwork
-  category: construction-category-structures
-  objectType: Structure
-  placementMode: SnapgridCenter
-  canBuildInImpassable: false
-  conditions:
-    - !type:TileNotBlocked
-
-#lighting
-- type: construction
-  id: LightTubeFixture
-  graph: LightFixture
-  startNode: start
-  targetNode: tubeLight
-  category: construction-category-structures
-  objectType: Structure
-  placementMode: SnapgridCenter
-  canRotate: true
-  canBuildInImpassable: false
-  conditions:
-  # Need an *additional* condition here that forces there to be a wall in the opposite direction to the one used for placement.
-  # Also see below. Didn't add it b/c construction ECS work going on. Cheers, - 20kdc
-    - !type:TileNotBlocked
-
-- type: construction
-  id: LightSmallFixture
-  graph: LightFixture
-  startNode: start
-  targetNode: bulbLight
-  category: construction-category-structures
-  objectType: Structure
-  placementMode: SnapgridCenter
-  canRotate: true
-  canBuildInImpassable: false
-  conditions:
-  # Same here. - 20kdc
-    - !type:TileNotBlocked
-
-- type: construction
-  id: EmergencyLightFixture
-  graph: LightFixture
-  startNode: start
-  targetNode: emergencyLight
-  category: construction-category-structures
-  objectType: Structure
-  placementMode: SnapgridCenter
-  canRotate: true
-  canBuildInImpassable: false
-  conditions:
-    - !type:TileNotBlocked
-
-- type: construction
-  id: LightGroundFixture
-  graph: LightFixture
-  startNode: start
-  targetNode: groundLight
-  category: construction-category-structures
-  objectType: Structure
-  placementMode: SnapgridCenter
-  canRotate: false
-  canBuildInImpassable: false
-  conditions:
-    - !type:TileNotBlocked
-
-- type: construction
-  id: LightStrobeFixture
-  graph: LightFixture
-  startNode: start
-  targetNode: strobeLight
-  category: construction-category-structures
-  objectType: Structure
-  placementMode: SnapgridCenter
-  canRotate: true
-  canBuildInImpassable: false
-  conditions:
-    - !type:TileNotBlocked
-
-#conveyor
-- type: construction
-  id: ConveyorBelt
-  graph: ConveyorGraph
-  startNode: start
-  targetNode: entity
-  category: construction-category-structures
-  objectType: Structure
-  placementMode: SnapgridCenter
-  canBuildInImpassable: false
-  conditions:
-    - !type:TileNotBlocked
-
+##Airlocks
+#- type: construction
+#  id: Airlock
+#  graph: Airlock
+#  startNode: start
+#  targetNode: airlock
+#  category: construction-category-structures
+#  objectType: Structure
+#  placementMode: SnapgridCenter
+#  canBuildInImpassable: false
+#  conditions:
+#    - !type:TileNotBlocked
+#
+#- type: construction
+#  id: AirlockGlass
+#  graph: Airlock
+#  startNode: start
+#  targetNode: glassAirlock
+#  category: construction-category-structures
+#  objectType: Structure
+#  placementMode: SnapgridCenter
+#  canBuildInImpassable: false
+#  conditions:
+#    - !type:TileNotBlocked
+#
+#- type: construction
+#  id: PinionAirlock
+#  name: construction-recipe-pinion-airlock
+#  graph: PinionAirlock
+#  startNode: start
+#  targetNode: airlock
+#  category: construction-category-structures
+#  objectType: Structure
+#  placementMode: SnapgridCenter
+#  canBuildInImpassable: false
+#  conditions:
+#    - !type:TileNotBlocked
+#
+#- type: construction
+#  id: PinionAirlockGlass
+#  name: construction-recipe-pinion-airlock-glass
+#  graph: PinionAirlock
+#  startNode: start
+#  targetNode: glassAirlock
+#  category: construction-category-structures
+#  objectType: Structure
+#  placementMode: SnapgridCenter
+#  canBuildInImpassable: false
+#  conditions:
+#    - !type:TileNotBlocked
+#
+#- type: construction
+#  id: AirlockShuttle
+#  graph: AirlockShuttle
+#  startNode: start
+#  targetNode: airlock
+#  category: construction-category-structures
+#  #  state: assembly
+#  objectType: Structure
+#  placementMode: SnapgridCenter
+#  canBuildInImpassable: false
+#  conditions:
+#  - !type:TileNotBlocked
+#
+#- type: construction
+#  id: AirlockGlassShuttle
+#  name: construction-recipe-airlock-glass-shuttle
+#  graph: AirlockShuttle
+#  startNode: start
+#  targetNode: airlockGlass
+#  category: construction-category-structures
+#  #  state: assembly
+#  objectType: Structure
+#  placementMode: SnapgridCenter
+#  canBuildInImpassable: false
+#  conditions:
+#    - !type:TileNotBlocked
+#
+#- type: construction
+#  id: Windoor
+#  graph: Windoor
+#  startNode: start
+#  targetNode: windoor
+#  category: construction-category-structures
+#  objectType: Structure
+#  placementMode: SnapgridCenter
+#  canBuildInImpassable: false
+#  conditions:
+#    - !type:TileNotBlocked
+#
+#- type: construction
+#  id: SecureWindoor
+#  graph: Windoor
+#  startNode: start
+#  targetNode: windoorSecure
+#  category: construction-category-structures
+#  objectType: Structure
+#  placementMode: SnapgridCenter
+#  canBuildInImpassable: false
+#  conditions:
+#    - !type:TileNotBlocked
+#
+#- type: construction
+#  id: ClockworkWindoor
+#  graph: Windoor
+#  startNode: start
+#  targetNode: windoorClockwork
+#  category: construction-category-structures
+#  objectType: Structure
+#  placementMode: SnapgridCenter
+#  canBuildInImpassable: false
+#  conditions:
+#    - !type:TileNotBlocked
+#
+##lighting
+#- type: construction
+#  id: LightTubeFixture
+#  graph: LightFixture
+#  startNode: start
+#  targetNode: tubeLight
+#  category: construction-category-structures
+#  objectType: Structure
+#  placementMode: SnapgridCenter
+#  canRotate: true
+#  canBuildInImpassable: false
+#  conditions:
+#  # Need an *additional* condition here that forces there to be a wall in the opposite direction to the one used for placement.
+#  # Also see below. Didn't add it b/c construction ECS work going on. Cheers, - 20kdc
+#    - !type:TileNotBlocked
+#
+#- type: construction
+#  id: LightSmallFixture
+#  graph: LightFixture
+#  startNode: start
+#  targetNode: bulbLight
+#  category: construction-category-structures
+#  objectType: Structure
+#  placementMode: SnapgridCenter
+#  canRotate: true
+#  canBuildInImpassable: false
+#  conditions:
+#  # Same here. - 20kdc
+#    - !type:TileNotBlocked
+#
+#- type: construction
+#  id: EmergencyLightFixture
+#  graph: LightFixture
+#  startNode: start
+#  targetNode: emergencyLight
+#  category: construction-category-structures
+#  objectType: Structure
+#  placementMode: SnapgridCenter
+#  canRotate: true
+#  canBuildInImpassable: false
+#  conditions:
+#    - !type:TileNotBlocked
+#
+#- type: construction
+#  id: LightGroundFixture
+#  graph: LightFixture
+#  startNode: start
+#  targetNode: groundLight
+#  category: construction-category-structures
+#  objectType: Structure
+#  placementMode: SnapgridCenter
+#  canRotate: false
+#  canBuildInImpassable: false
+#  conditions:
+#    - !type:TileNotBlocked
+#
+#- type: construction
+#  id: LightStrobeFixture
+#  graph: LightFixture
+#  startNode: start
+#  targetNode: strobeLight
+#  category: construction-category-structures
+#  objectType: Structure
+#  placementMode: SnapgridCenter
+#  canRotate: true
+#  canBuildInImpassable: false
+#  conditions:
+#    - !type:TileNotBlocked
+#
+##conveyor
+#- type: construction
+#  id: ConveyorBelt
+#  graph: ConveyorGraph
+#  startNode: start
+#  targetNode: entity
+#  category: construction-category-structures
+#  objectType: Structure
+#  placementMode: SnapgridCenter
+#  canBuildInImpassable: false
+#  conditions:
+#    - !type:TileNotBlocked
+#
 - type: construction
   id: MetalDoor
   graph: DoorGraph
@@ -1159,41 +1159,41 @@
   conditions:
     - !type:TileNotBlocked
 
-- type: construction
-  id: PlasmaDoor
-  graph: DoorGraph
-  startNode: start
-  targetNode: plasmaDoor
-  category: construction-category-structures
-  objectType: Structure
-  placementMode: SnapgridCenter
-  canBuildInImpassable: false
-  conditions:
-    - !type:TileNotBlocked
-
-- type: construction
-  id: GoldDoor
-  graph: DoorGraph
-  startNode: start
-  targetNode: goldDoor
-  category: construction-category-structures
-  objectType: Structure
-  placementMode: SnapgridCenter
-  canBuildInImpassable: false
-  conditions:
-    - !type:TileNotBlocked
-
-- type: construction
-  id: SilverDoor
-  graph: DoorGraph
-  startNode: start
-  targetNode: silverDoor
-  category: construction-category-structures
-  objectType: Structure
-  placementMode: SnapgridCenter
-  canBuildInImpassable: false
-  conditions:
-    - !type:TileNotBlocked
+#- type: construction
+#  id: PlasmaDoor
+#  graph: DoorGraph
+#  startNode: start
+#  targetNode: plasmaDoor
+#  category: construction-category-structures
+#  objectType: Structure
+#  placementMode: SnapgridCenter
+#  canBuildInImpassable: false
+#  conditions:
+#    - !type:TileNotBlocked
+#
+#- type: construction
+#  id: GoldDoor
+#  graph: DoorGraph
+#  startNode: start
+#  targetNode: goldDoor
+#  category: construction-category-structures
+#  objectType: Structure
+#  placementMode: SnapgridCenter
+#  canBuildInImpassable: false
+#  conditions:
+#    - !type:TileNotBlocked
+#
+#- type: construction
+#  id: SilverDoor
+#  graph: DoorGraph
+#  startNode: start
+#  targetNode: silverDoor
+#  category: construction-category-structures
+#  objectType: Structure
+#  placementMode: SnapgridCenter
+#  canBuildInImpassable: false
+#  conditions:
+#    - !type:TileNotBlocked
 
 - type: construction
   id: PaperDoor
@@ -1205,41 +1205,41 @@
   placementMode: SnapgridCenter
   canBuildInImpassable: false
 
-- type: construction
-  id: CardDoor
-  graph: DoorGraph
-  startNode: start
-  targetNode: cardDoor
-  category: construction-category-structures
-  objectType: Structure
-  placementMode: SnapgridCenter
-  canBuildInImpassable: false
-
-- type: construction
-  id: PlasticFlapsClear
-  name: construction-recipe-plastic-flaps-clear
-  graph: PlasticFlapsGraph
-  startNode: start
-  targetNode: plasticFlaps
-  category: construction-category-structures
-  placementMode: SnapgridCenter
-  objectType: Structure
-  canBuildInImpassable: false
-  conditions:
-    - !type:TileNotBlocked
-
-- type: construction
-  id: PlasticFlapsOpaque
-  name: construction-recipe-plastic-flaps-opaque
-  graph: PlasticFlapsGraph
-  startNode: start
-  targetNode: opaqueFlaps
-  category: construction-category-structures
-  placementMode: SnapgridCenter
-  objectType: Structure
-  canBuildInImpassable: false
-  conditions:
-    - !type:TileNotBlocked
+#- type: construction
+#  id: CardDoor
+#  graph: DoorGraph
+#  startNode: start
+#  targetNode: cardDoor
+#  category: construction-category-structures
+#  objectType: Structure
+#  placementMode: SnapgridCenter
+#  canBuildInImpassable: false
+#
+#- type: construction
+#  id: PlasticFlapsClear
+#  name: construction-recipe-plastic-flaps-clear
+#  graph: PlasticFlapsGraph
+#  startNode: start
+#  targetNode: plasticFlaps
+#  category: construction-category-structures
+#  placementMode: SnapgridCenter
+#  objectType: Structure
+#  canBuildInImpassable: false
+#  conditions:
+#    - !type:TileNotBlocked
+#
+#- type: construction
+#  id: PlasticFlapsOpaque
+#  name: construction-recipe-plastic-flaps-opaque
+#  graph: PlasticFlapsGraph
+#  startNode: start
+#  targetNode: opaqueFlaps
+#  category: construction-category-structures
+#  placementMode: SnapgridCenter
+#  objectType: Structure
+#  canBuildInImpassable: false
+#  conditions:
+#    - !type:TileNotBlocked
 
 - type: construction
   id: CarpStatue
@@ -1316,15 +1316,15 @@
   conditions:
     - !type:TileNotBlocked
 
-- type: construction
-  id: StationAiCore
-  graph: StationAiCore
-  startNode: start
-  targetNode: stationAiCore
-  category: construction-category-structures
-  objectType: Structure
-  placementMode: SnapgridCenter
-  canRotate: false
-  canBuildInImpassable: false
-  conditions:
-    - !type:TileNotBlocked
+#- type: construction
+#  id: StationAiCore
+#  graph: StationAiCore
+#  startNode: start
+#  targetNode: stationAiCore
+#  category: construction-category-structures
+#  objectType: Structure
+#  placementMode: SnapgridCenter
+#  canRotate: false
+#  canBuildInImpassable: false
+#  conditions:
+#    - !type:TileNotBlocked

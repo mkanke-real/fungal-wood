@@ -1,19 +1,19 @@
-- type: construction
-  id: BladedFlatcapGrey
-  graph: BladedFlatcapGrey
-  startNode: start
-  targetNode: icon
-  category: construction-category-weapons
-  objectType: Item
-
-- type: construction
-  id: BladedFlatcapBrown
-  graph: BladedFlatcapBrown
-  startNode: start
-  targetNode: icon
-  category: construction-category-weapons
-  objectType: Item
-
+#- type: construction
+#  id: BladedFlatcapGrey
+#  graph: BladedFlatcapGrey
+#  startNode: start
+#  targetNode: icon
+#  category: construction-category-weapons
+#  objectType: Item
+#
+#- type: construction
+#  id: BladedFlatcapBrown
+#  graph: BladedFlatcapBrown
+#  startNode: start
+#  targetNode: icon
+#  category: construction-category-weapons
+#  objectType: Item
+#
 - type: construction
   id: Shiv
   graph: Shiv
@@ -21,30 +21,30 @@
   targetNode: icon
   category: construction-category-weapons
   objectType: Item
-
-- type: construction
-  id: ReinforcedShiv
-  graph: ReinforcedShiv
-  startNode: start
-  targetNode: icon
-  category: construction-category-weapons
-  objectType: Item
-
-- type: construction
-  id: PlasmaShiv
-  graph: PlasmaShiv
-  startNode: start
-  targetNode: icon
-  category: construction-category-weapons
-  objectType: Item
-
-- type: construction
-  id: UraniumShiv
-  graph: UraniumShiv
-  startNode: start
-  targetNode: icon
-  category: construction-category-weapons
-  objectType: Item
+#
+#- type: construction
+#  id: ReinforcedShiv
+#  graph: ReinforcedShiv
+#  startNode: start
+#  targetNode: icon
+#  category: construction-category-weapons
+#  objectType: Item
+#
+#- type: construction
+#  id: PlasmaShiv
+#  graph: PlasmaShiv
+#  startNode: start
+#  targetNode: icon
+#  category: construction-category-weapons
+#  objectType: Item
+#
+#- type: construction
+#  id: UraniumShiv
+#  graph: UraniumShiv
+#  startNode: start
+#  targetNode: icon
+#  category: construction-category-weapons
+#  objectType: Item
 
 - type: construction
   id: Spear
@@ -102,13 +102,13 @@
   category: construction-category-weapons
   objectType: Item
 
-- type: construction
-  id: CardShield
-  graph: CardShield
-  startNode: start
-  targetNode: cardShield
-  category: construction-category-weapons
-  objectType: Item
+#- type: construction
+#  id: CardShield
+#  graph: CardShield
+#  startNode: start
+#  targetNode: cardShield
+#  category: construction-category-weapons
+#  objectType: Item
 
 - type: construction
   id: MakeshiftShield
@@ -134,29 +134,29 @@
   category: construction-category-weapons
   objectType: Item
 
-- type: construction
-  id: ImprovisedArrowPlasma
-  graph: ImprovisedArrowPlasma
-  startNode: start
-  targetNode: ImprovisedArrowPlasma
-  category: construction-category-weapons
-  objectType: Item
-
-- type: construction
-  id: ImprovisedArrowUranium
-  graph: ImprovisedArrowUranium
-  startNode: start
-  targetNode: ImprovisedArrowUranium
-  category: construction-category-weapons
-  objectType: Item
-
-- type: construction
-  id: CardArrow
-  graph: CardArrow
-  startNode: start
-  targetNode: CardArrow
-  category: construction-category-weapons
-  objectType: Item
+#- type: construction
+#  id: ImprovisedArrowPlasma
+#  graph: ImprovisedArrowPlasma
+#  startNode: start
+#  targetNode: ImprovisedArrowPlasma
+#  category: construction-category-weapons
+#  objectType: Item
+#
+#- type: construction
+#  id: ImprovisedArrowUranium
+#  graph: ImprovisedArrowUranium
+#  startNode: start
+#  targetNode: ImprovisedArrowUranium
+#  category: construction-category-weapons
+#  objectType: Item
+#
+#- type: construction
+#  id: CardArrow
+#  graph: CardArrow
+#  startNode: start
+#  targetNode: CardArrow
+#  category: construction-category-weapons
+#  objectType: Item
 
 - type: construction
   id: ImprovisedBow
@@ -182,10 +182,10 @@
   category: construction-category-weapons
   objectType: Item
 
-- type: construction
-  id: CardSword
-  graph: CardSword
-  startNode: start
-  targetNode: cardSword
-  category: construction-category-weapons
-  objectType: Item
+#- type: construction
+#  id: CardSword
+#  graph: CardSword
+#  startNode: start
+#  targetNode: cardSword
+#  category: construction-category-weapons
+#  objectType: Item

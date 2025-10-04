@@ -22,13 +22,13 @@
   category: construction-category-tools
   objectType: Item
 
-- type: construction
-  id: makeshiftstunprod
-  graph: makeshiftstunprod
-  startNode: start
-  targetNode: msstunprod
-  category: construction-category-weapons
-  objectType: Item
+#- type: construction
+#  id: makeshiftstunprod
+#  graph: makeshiftstunprod
+#  startNode: start
+#  targetNode: msstunprod
+#  category: construction-category-weapons
+#  objectType: Item
 
 - type: construction
   id: muzzle
@@ -38,13 +38,13 @@
   category: construction-category-tools
   objectType: Item
 
-- type: construction
-  id: pneumaticcannon
-  graph: PneumaticCannon
-  startNode: start
-  targetNode: cannon
-  category: construction-category-weapons
-  objectType: Item
+#- type: construction
+#  id: pneumaticcannon
+#  graph: PneumaticCannon
+#  startNode: start
+#  targetNode: cannon
+#  category: construction-category-weapons
+#  objectType: Item
 
 - type: construction
   id: gauze
@@ -78,37 +78,37 @@
   category: construction-category-tools
   objectType: Item
 
-- type: construction
-  id: improvisedshotgun
-  graph: ImprovisedShotgunGraph
-  startNode: start
-  targetNode: shotgun
-  category: construction-category-weapons
-  objectType: Item
+#- type: construction
+#  id: improvisedshotgun
+#  graph: ImprovisedShotgunGraph
+#  startNode: start
+#  targetNode: shotgun
+#  category: construction-category-weapons
+#  objectType: Item
 
-- type: construction
-  id: ShellShotgunImprovised
-  graph: ImprovisedShotgunShellGraph
-  startNode: start
-  targetNode: shell
-  category: construction-category-weapons
-  objectType: Item
-
-- type: construction
-  id: riflestock
-  graph: RifleStockGraph
-  startNode: start
-  targetNode: riflestock
-  category: construction-category-weapons
-  objectType: Item
-
-- type: construction
-  id: firebomb
-  graph: FireBomb
-  startNode: start
-  targetNode: firebomb
-  category: construction-category-weapons
-  objectType: Item
+#- type: construction
+#  id: ShellShotgunImprovised
+#  graph: ImprovisedShotgunShellGraph
+#  startNode: start
+#  targetNode: shell
+#  category: construction-category-weapons
+#  objectType: Item
+#
+#- type: construction
+#  id: riflestock
+#  graph: RifleStockGraph
+#  startNode: start
+#  targetNode: riflestock
+#  category: construction-category-weapons
+#  objectType: Item
+#
+#- type: construction
+#  id: firebomb
+#  graph: FireBomb
+#  startNode: start
+#  targetNode: firebomb
+#  category: construction-category-weapons
+#  objectType: Item
 
 - type: construction
   id: CottonWovenCloth
@@ -126,13 +126,13 @@
   category: construction-category-clothing
   objectType: Item
 
-- type: construction
-  id: pipebomb
-  graph: PipeBomb
-  startNode: start
-  targetNode: pipebomb
-  category: construction-category-weapons
-  objectType: Item
+#- type: construction
+#  id: pipebomb
+#  graph: PipeBomb
+#  startNode: start
+#  targetNode: pipebomb
+#  category: construction-category-weapons
+#  objectType: Item
 
 - type: construction
   id: rollingpin
@@ -142,21 +142,21 @@
   category: construction-category-tools
   objectType: Item
 
-- type: construction
-  id: PetCarrier
-  graph: PetCarrier
-  startNode: start
-  targetNode: petCarrier
-  category: construction-category-misc
-  objectType: Item
-
-- type: construction
-  id: HardsuitGoliath
-  graph: HardsuitGoliath
-  startNode: start
-  targetNode: hardsuitGoliath
-  category: construction-category-clothing
-  objectType: Item
+#- type: construction
+#  id: PetCarrier
+#  graph: PetCarrier
+#  startNode: start
+#  targetNode: petCarrier
+#  category: construction-category-misc
+#  objectType: Item
+#
+#- type: construction
+#  id: HardsuitGoliath
+#  graph: HardsuitGoliath
+#  startNode: start
+#  targetNode: hardsuitGoliath
+#  category: construction-category-clothing
+#  objectType: Item
 
 - type: construction
   id: scraparmor
@@ -174,10 +174,10 @@
   category: construction-category-clothing
   objectType: Item
 
-- type: construction
-  id: ClothingBagPet
-  graph: ClothingBagPet
-  startNode: start
-  targetNode: bagPet
-  category: construction-category-clothing
-  objectType: Item
+#- type: construction
+#  id: ClothingBagPet
+#  graph: ClothingBagPet
+#  startNode: start
+#  targetNode: bagPet
+#  category: construction-category-clothing
+#  objectType: Item

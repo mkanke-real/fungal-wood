@@ -1,10 +1,10 @@
-﻿- type: construction
-  id: PlushieGhostRevenant
-  graph: PlushieGhostRevenant
-  startNode: start
-  targetNode: plushie
-  category: construction-category-misc
-  objectType: Item
+﻿#- type: construction
+#  id: PlushieGhostRevenant
+#  graph: PlushieGhostRevenant
+#  startNode: start
+#  targetNode: plushie
+#  category: construction-category-misc
+#  objectType: Item
 
 - type: construction
   id: ClothingOuterSuitIan
@@ -14,10 +14,10 @@
   category: construction-category-misc
   objectType: Item
 
-- type: construction
-  id: MoproachShoes
-  graph: MoproachShoes
-  startNode: start
-  targetNode: shoes
-  category: construction-category-misc
-  objectType: Item
+#- type: construction
+#  id: MoproachShoes
+#  graph: MoproachShoes
+#  startNode: start
+#  targetNode: shoes
+#  category: construction-category-misc
+#  objectType: Item

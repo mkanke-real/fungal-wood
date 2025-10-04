@@ -1,19 +1,19 @@
-- type: construction
-  id: ClownHardsuit
-  graph: ClownHardsuit
-  startNode: start
-  targetNode: clownHardsuit
-  category: construction-category-clothing
-  objectType: Item
-
-- type: construction
-  id: MimeHardsuit
-  graph: MimeHardsuit
-  startNode: start
-  targetNode: mimeHardsuit
-  category: construction-category-clothing
-  objectType: Item
-
+#- type: construction
+#  id: ClownHardsuit
+#  graph: ClownHardsuit
+#  startNode: start
+#  targetNode: clownHardsuit
+#  category: construction-category-clothing
+#  objectType: Item
+#
+#- type: construction
+#  id: MimeHardsuit
+#  graph: MimeHardsuit
+#  startNode: start
+#  targetNode: mimeHardsuit
+#  category: construction-category-clothing
+#  objectType: Item
+#
 - type: construction
   id: BoneArmor
   graph: BoneArmor
@@ -29,55 +29,55 @@
   targetNode: helmet
   category: construction-category-clothing
   objectType: Item
-
-- type: construction
-  id: cardHelmet
-  graph: cardHelmet
-  startNode: start
-  targetNode: cardhelmet
-  category: construction-category-clothing
-  objectType: Item
-
-- type: construction
-  id: cardArmour
-  graph: cardArmour
-  startNode: start
-  targetNode: cardarmour
-  category: construction-category-clothing
-  objectType: Item
-
-- type: construction
-  id: BananaClownMask
-  graph: BananaClownMask
-  startNode: start
-  targetNode: mask
-  category: construction-category-clothing
-  objectType: Item
-
-- type: construction
-  id: BananaClownJumpsuit
-  graph: BananaClownJumpsuit
-  startNode: start
-  targetNode: jumpsuit
-  category: construction-category-clothing
-  objectType: Item
-
-- type: construction
-  id: BananaClownShoes
-  graph: BananaClownShoes
-  startNode: start
-  targetNode: shoes
-  category: construction-category-clothing
-  objectType: Item
-
-- type: construction
-  id: ClothingEyesHudMedSec
-  graph: HudMedSec
-  startNode: start
-  targetNode: medsecHud
-  category: construction-category-clothing
-  objectType: Item
-
+#
+#- type: construction
+#  id: cardHelmet
+#  graph: cardHelmet
+#  startNode: start
+#  targetNode: cardhelmet
+#  category: construction-category-clothing
+#  objectType: Item
+#
+#- type: construction
+#  id: cardArmour
+#  graph: cardArmour
+#  startNode: start
+#  targetNode: cardarmour
+#  category: construction-category-clothing
+#  objectType: Item
+#
+#- type: construction
+#  id: BananaClownMask
+#  graph: BananaClownMask
+#  startNode: start
+#  targetNode: mask
+#  category: construction-category-clothing
+#  objectType: Item
+#
+#- type: construction
+#  id: BananaClownJumpsuit
+#  graph: BananaClownJumpsuit
+#  startNode: start
+#  targetNode: jumpsuit
+#  category: construction-category-clothing
+#  objectType: Item
+#
+#- type: construction
+#  id: BananaClownShoes
+#  graph: BananaClownShoes
+#  startNode: start
+#  targetNode: shoes
+#  category: construction-category-clothing
+#  objectType: Item
+#
+#- type: construction
+#  id: ClothingEyesHudMedSec
+#  graph: HudMedSec
+#  startNode: start
+#  targetNode: medsecHud
+#  category: construction-category-clothing
+#  objectType: Item
+#
 - type: construction
   id: ClothingShoeSlippersDuck
   graph: ClothingShoeSlippersDuck
@@ -93,15 +93,15 @@
   targetNode: shoes
   category: construction-category-clothing
   objectType: Item
-
-- type: construction
-  id: ClothingEyesGlassesSecurity
-  graph: GlassesSecHUD
-  startNode: start
-  targetNode: glassesSec
-  category: construction-category-clothing
-  objectType: Item
-
+#
+#- type: construction
+#  id: ClothingEyesGlassesSecurity
+#  graph: GlassesSecHUD
+#  startNode: start
+#  targetNode: glassesSec
+#  category: construction-category-clothing
+#  objectType: Item
+#
 - type: construction
   id: ClothingBeltQuiver
   graph: Quiver
@@ -109,11 +109,11 @@
   targetNode: Quiver
   category: construction-category-clothing
   objectType: Item
-
-- type: construction
-  id: ClothingHeadHelmetJustice
-  graph: HelmetJustice
-  startNode: start
-  targetNode: helmet
-  category: construction-category-clothing
-  objectType: Item
+#
+#- type: construction
+#  id: ClothingHeadHelmetJustice
+#  graph: HelmetJustice
+#  startNode: start
+#  targetNode: helmet
+#  category: construction-category-clothing
+#  objectType: Item
