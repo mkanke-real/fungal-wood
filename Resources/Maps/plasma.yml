@@ -24589,11 +24589,6 @@ entities:
     - type: Transform
       pos: -15.5,18.5
       parent: 2
-    - type: Contraband
-      allowedJobs: []
-      allowedDepartments:
-      - Security
-      severity: Syndicate
 - proto: BarberScissors
   entities:
   - uid: 3403
@@ -24805,11 +24800,6 @@ entities:
     - type: Transform
       pos: -13.5,17.5
       parent: 2
-    - type: Contraband
-      allowedJobs: []
-      allowedDepartments:
-      - Security
-      severity: Syndicate
   - uid: 2894
     components:
     - type: Transform
@@ -25117,9 +25107,6 @@ entities:
     - type: Transform
       pos: -13.5,17.5
       parent: 2
-    - type: Contraband
-      allowedDepartments:
-      - Security
 - proto: BenchBlueComfy
   entities:
   - uid: 4976
@@ -128786,11 +128773,6 @@ entities:
           showEnts: False
           occludes: True
           ent: null
-    - type: Contraband
-      allowedJobs: []
-      allowedDepartments:
-      - Security
-      severity: Syndicate
 - proto: LockerWallMedicalFilled
   entities:
   - uid: 18473
@@ -131781,10 +131763,6 @@ entities:
       autoAttack: True
     - type: Item
       size: Huge
-    - type: Contraband
-      allowedJobs: []
-      allowedDepartments: []
-      severity: Syndicate
 - proto: PlushieSlime
   entities:
   - uid: 3336
@@ -144265,11 +144243,6 @@ entities:
       parent: 2
     - type: Item
       size: Huge
-    - type: Contraband
-      allowedJobs: []
-      allowedDepartments:
-      - Security
-      severity: Syndicate
 - proto: SmartFridge
   entities:
   - uid: 3405
@@ -149943,11 +149916,6 @@ entities:
     - type: Transform
       pos: -13.5,19.5
       parent: 2
-    - type: Contraband
-      allowedJobs: []
-      allowedDepartments:
-      - Security
-      severity: Syndicate
     - type: Fixtures
       fixtures: {}
 - proto: SyndieHandyFlag
@@ -151505,10 +151473,6 @@ entities:
     - type: Transform
       pos: -13.5,18.5
       parent: 2
-    - type: Contraband
-      allowedJobs: []
-      allowedDepartments: []
-      severity: Syndicate
   - uid: 2514
     components:
     - type: Transform
@@ -170890,10 +170854,6 @@ entities:
     - type: Transform
       pos: -14.5,18.5
       parent: 2
-    - type: Contraband
-      allowedJobs: []
-      allowedDepartments: []
-      severity: Syndicate
 - proto: WelderIndustrial
   entities:
   - uid: 7350

@@ -120987,11 +120987,6 @@ entities:
         STAMP BELOW STAMP BELOW STAMP BELOW STAMP BELOW
 
         ===================================================
-    - type: Contraband
-      allowedJobs: []
-      allowedDepartments:
-      - Security
-      severity: Syndicate
   - uid: 7345
     components:
     - type: Transform

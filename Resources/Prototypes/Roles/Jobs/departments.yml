@@ -3,6 +3,7 @@
   name: department-Cargo
   description: department-Cargo-description
   color: "#A46106"
+  editorHidden: true
   roles:
   - CargoTechnician
   - Quartermaster
@@ -14,6 +15,7 @@
   description: department-Civilian-description
   color: "#9FED58"
   weight: -10
+  editorHidden: true
   roles:
   - Bartender
   - Botanist
@@ -56,6 +58,7 @@
   name: department-Command
   description: department-Command-description
   color: "#334E6D"
+  editorHidden: true
   roles:
   - Captain
   - ChiefEngineer
@@ -81,6 +84,7 @@
   name: department-Engineering
   description: department-Engineering-description
   color: "#EFB341"
+  editorHidden: true
   roles:
   - AtmosphericTechnician
   - ChiefEngineer
@@ -92,6 +96,7 @@
   name: department-Medical
   description: department-Medical-description
   color: "#52B4E9"
+  editorHidden: true
   roles:
   - Chemist
   - ChiefMedicalOfficer
@@ -105,6 +110,7 @@
   name: department-Security
   description: department-Security-description
   color: "#DE3A3A"
+  editorHidden: true
   weight: 20
   roles:
   - HeadOfSecurity
@@ -118,6 +124,7 @@
   name: department-Science
   description: department-Science-description
   color: "#D381C9"
+  editorHidden: true
   roles:
   - ResearchDirector
   - Scientist
@@ -128,6 +135,7 @@
   name: department-Silicon
   description: department-Silicon-description
   color: "#D381C9"
+  editorHidden: true
   roles:
   - Borg
   - StationAi
@@ -138,6 +146,7 @@
   description: department-Specific-description
   color: "#9FED58"
   weight: 10
+  editorHidden: true
   roles:
   - Boxer
   - Reporter

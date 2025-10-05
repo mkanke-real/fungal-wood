@@ -1,0 +1,27 @@
+- type: department
+  id: Noble
+  name: department-Noble
+  description: department-Noble-description
+  color: "#9FED58"
+  weight: 100
+  roles:
+  - King
+
+- type: department
+  id: Guardsmen
+  name: department-Guardsmen
+  description: department-Guardsmen-description
+  color: "#9FED58"
+  weight: 50
+  roles:
+  - GuardCaptain
+  - TownGuard
+
+- type: department
+  id: Commoner
+  name: department-Commoner
+  description: department-Commoner-description
+  color: "#9FED58"
+  weight: -10
+  roles:
+  - Peasant
