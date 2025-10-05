@@ -110391,11 +110391,6 @@ entities:
     - type: Transform
       pos: -37.43985,-19.687504
       parent: 2
-    - type: Contraband
-      allowedJobs: []
-      allowedDepartments:
-      - Security
-      severity: Minor
   - uid: 14380
     components:
     - type: Transform
