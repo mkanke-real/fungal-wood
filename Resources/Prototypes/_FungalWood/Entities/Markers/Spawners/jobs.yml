@@ -1,0 +1,47 @@
+- type: entity
+  id: SpawnPointKing
+  parent: SpawnPointJobBase
+  name: king
+  components:
+  - type: SpawnPoint
+    job_id: King
+  - type: Sprite
+    layers:
+    - state: green
+    - state: passenger
+
+- type: entity
+  id: SpawnPointGuardCaptain
+  parent: SpawnPointJobBase
+  name: guard captain
+  components:
+  - type: SpawnPoint
+    job_id: GuardCaptain
+  - type: Sprite
+    layers:
+    - state: green
+    - state: passenger
+
+- type: entity
+  id: SpawnPointGuard
+  parent: SpawnPointJobBase
+  name: guard
+  components:
+  - type: SpawnPoint
+    job_id: TownGuard
+  - type: Sprite
+    layers:
+    - state: green
+    - state: passenger
+
+- type: entity
+  id: SpawnPointPeasant
+  parent: SpawnPointJobBase
+  name: peasant
+  components:
+  - type: SpawnPoint
+    job_id: Peasant
+  - type: Sprite
+    layers:
+    - state: green
+    - state: passenger
