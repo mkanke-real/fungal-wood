@@ -1,0 +1,50 @@
+- type: entity
+  id: CarpentersTable
+  parent: BaseMachine
+  name: carpenter's table
+  description: All the tools you need to work wood.
+  components:
+  - type: Appearance
+  - type: Sprite
+    sprite: _FungalWood/Structures/Machines/carpenters.rsi
+    layers:
+      - state: icon
+        map: [ "enum.LatheVisualLayers.IsRunning" ]
+  - type: Lathe
+    idleState: icon
+    runningState: icon
+    defaultProductionAmount: 1
+    staticPacks:
+    - WoodWorking
+  - type: MaterialStorage
+    ignoreColor: true
+    whitelist:
+      tags:
+      - Wooden
+  - type: Damageable
+    damageModifierSet: Wood
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 75 #arbitrary
+      behaviors:
+      - !type:PlaySoundBehavior
+        sound:
+          collection: WoodDestroy
+      - !type:SpawnEntitiesBehavior
+        spawn:
+          MaterialWoodPlank:
+            min: 1
+            max: 2
+      - !type:DoActsBehavior
+        acts: [ "Destruction" ]
+  - type: ActivatableUI
+    key: enum.LatheUiKey.Key
+  - type: UserInterface
+    interfaces:
+      enum.LatheUiKey.Key:
+        type: LatheBoundUserInterface
+  - type: Transform
+    anchored: true
+  - type: Pullable

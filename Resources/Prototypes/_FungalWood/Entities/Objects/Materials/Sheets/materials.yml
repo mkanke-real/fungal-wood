@@ -1,0 +1,56 @@
+- type: entity
+  parent: MaterialBase
+  id: MaterialWoodRaw
+  name: log
+  suffix: Full
+  components:
+  - type: Material
+  - type: PhysicalComposition
+    materialComposition:
+      RawWood: 100
+  - type: Stack
+    count: 5
+    stackType: WoodRaw
+    baseLayer: base
+    layerStates:
+    - log
+    - log_2
+    - log_3
+  - type: Sprite
+    sprite: _FungalWood/Objects/Materials/materials.rsi
+    state: log
+    layers:
+    - state: log
+      map: ["base"]
+  - type: Appearance
+  - type: Item
+    sprite: _FungalWood/Objects/Materials/materials.rsi
+    heldPrefix: log
+  - type: MeleeWeapon
+    wideAnimationRotation: -135
+    damage:
+      types:
+        Blunt: 10
+    soundHit:
+      collection: MetalThud
+  - type: Tag
+    tags:
+    - Wooden
+    - RawMaterial
+    - ConstructionMaterial
+  - type: Extractable
+    grindableSolutionName: wood
+  - type: SolutionContainerManager
+    solutions:
+      wood:
+        reagents:
+        - ReagentId: Cellulose
+          Quantity: 10
+
+- type: entity
+  parent: MaterialWoodRaw
+  id: MaterialWoodRaw1
+  suffix: Single
+  components:
+  - type: Stack
+    count: 1

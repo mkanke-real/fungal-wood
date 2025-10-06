@@ -1,0 +1,6 @@
+- type: latheRecipe
+  id: MaterialWoodPlank
+  result: MaterialWoodPlank1
+  completetime: 2
+  materials:
+    RawWood: 100
