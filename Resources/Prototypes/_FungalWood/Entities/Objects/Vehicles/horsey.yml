@@ -1,0 +1,22 @@
+- type: entity
+  parent: BaseItem
+  id: HorseyShells
+  name: horse
+  description: A horse. The vehicle of kings and common men alike.
+  components:
+  - type: Sprite
+    sprite: _FungalWood/Objects/Vehicles/horsey.rsi
+    layers:
+    - state: icon
+  - type: MultiHandedItem
+  - type: Item
+    size: Ginormous
+  - type: HeldSpeedModifier
+    sprintModifier: 1.2
+  - type: FootstepModifier
+    allowOnHeld: true
+    footstepSoundCollection:
+      collection: FootstepHorse
+      params:
+        volume: -7
+        variation: 0.1

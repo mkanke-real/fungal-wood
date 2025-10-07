@@ -6,6 +6,7 @@ using Content.Shared.Friction;
 using Content.Shared.Gravity;
 using Content.Shared.Inventory;
 using Content.Shared.Maps;
+using Content.Shared.Hands.EntitySystems;
 using Content.Shared.Mobs.Systems;
 using Content.Shared.Movement.Components;
 using Content.Shared.Movement.Events;
@@ -39,6 +40,7 @@ public abstract partial class SharedMoverController : VirtualController
     [Dependency] private   readonly EntityLookupSystem _lookup = default!;
     [Dependency] private   readonly InventorySystem _inventory = default!;
     [Dependency] private   readonly MobStateSystem _mobState = default!;
+    [Dependency] private readonly SharedHandsSystem _handsSystem = default!;
     [Dependency] private   readonly SharedAudioSystem _audio = default!;
     [Dependency] private   readonly SharedContainerSystem _container = default!;
     [Dependency] private   readonly SharedMapSystem _mapSystem = default!;
@@ -534,6 +536,18 @@ public abstract partial class SharedMoverController : VirtualController
         {
             sound = moverModifier.FootstepSoundCollection;
             return sound != null;
+        }
+
+        //fungalwood change start - allow footstep mods on held items
+        foreach (var hand in _handsSystem.EnumerateHands(uid))
+        {
+            if (_handsSystem.TryGetHeldItem(uid, hand, out var heldEntity) &&
+                FootstepModifierQuery.TryComp(heldEntity, out var handModifier) &&
+                handModifier.AllowOnHeld)
+            {
+                sound = handModifier.FootstepSoundCollection;
+                return sound != null;
+            }
         }
 
         if (_inventory.TryGetSlotEntity(uid, "shoes", out var shoes) &&
