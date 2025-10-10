@@ -1,0 +1,39 @@
+- type: entity
+  parent: BaseItem
+  id: Firepot
+  name: firepot
+  description: Break in case of goblins.
+  components:
+  - type: Sprite
+    sprite: _FungalWood/Objects/Weapons/Throwable/firepot.rsi
+    state: icon
+  - type: Item
+    size: Small
+  - type: Damageable
+    damageContainer: Inorganic
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 3
+      behaviors:
+      - !type:DoActsBehavior
+        acts: ["Destruction"]
+      - !type:PlaySoundBehavior
+        sound:
+          path: /Audio/Effects/glass_break1.ogg
+      - !type:ExplodeBehavior
+  - type: DamageOnLand
+    damage:
+      types:
+        Blunt: 3
+  - type: IgnitionSource
+    temperature: 1000
+    ignited: false
+  - type: Explosive
+    explosionType: FireBomb
+    totalIntensity: 10
+    intensitySlope: 3
+    maxIntensity: 0.5
+    tileBreakScale: 0
+    canCreateVacuum: false

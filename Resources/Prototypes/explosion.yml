@@ -128,13 +128,13 @@
   id: FireBomb
   damagePerIntensity:
     types:
-      Heat: 1
-      Blunt: 2
-      Piercing: 3
+      Heat: 5 #fungalwood
+#      Blunt: 2
+#      Piercing: 3
   lightColor: Orange
   texturePath: /Textures/Effects/fire.rsi
-  fireStates: 3
-  fireStacks: 2
+  fireStates: 3 #fungalwood
+  fireStacks: 3 #fungalwood
 
 # STOP
 # BEFORE YOU ADD MORE EXPLOSION TYPES CONSIDER IF AN EXISTING ONE IS SUITABLE
