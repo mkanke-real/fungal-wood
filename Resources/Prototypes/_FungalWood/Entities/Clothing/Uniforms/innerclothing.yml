@@ -1,0 +1,21 @@
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformPeasant
+  name: geasant attire
+  description: For the unwashed backbone of any kingdom
+  components:
+  - type: Sprite
+    sprite: _FungalWood/Clothing/Uniforms/peasant.rsi
+  - type: Clothing
+    sprite: _FungalWood/Clothing/Uniforms/peasant.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformGuardsman
+  name: guardsman uniform
+  description: bonk
+  components:
+  - type: Sprite
+    sprite: _FungalWood/Clothing/Uniforms/tguard.rsi
+  - type: Clothing
+    sprite: _FungalWood/Clothing/Uniforms/tguard.rsi

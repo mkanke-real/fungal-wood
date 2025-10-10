@@ -9,3 +9,5 @@
 
 - type: startingGear
   id: GuardGear
+  equipment:
+    jumpsuit: ClothingUniformGuardsman
