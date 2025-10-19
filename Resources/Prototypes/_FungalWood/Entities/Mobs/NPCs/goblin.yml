@@ -1,0 +1,73 @@
+- type: entity
+  name: goblin
+  id: MobBaseGoblin
+  parent: MobBaseAncestor
+  description: goblin
+  abstract: true
+  components:
+  - type: NameIdentifier
+    group: Goblin
+  - type: Speech
+    speechSounds: Lizard
+    speechVerb: Reptilian
+  - type: Vocal
+    sounds:
+      Male: MaleReptilian
+      Female: FemaleReptilian
+      Unsexed: MaleReptilian
+  - type: MobThresholds
+    thresholds:
+      0: Alive
+      75: Critical
+      150: Dead
+  - type: MovementSpeedModifier
+    baseWalkSpeed: 3.5
+    baseSprintSpeed: 5
+  - type: MeleeWeapon
+    soundHit:
+      collection: AlienClaw
+    angle: 30
+    animation: WeaponArcClaw
+    damage:
+      types:
+        Slash: 7
+  - type: Sprite
+    drawdepth: Mobs
+    layers:
+    - map: ["enum.DamageStateVisualLayers.Base"]
+      sprite: _FungalWood/Mobs/Animals/goblin.rsi
+      state: goblin
+    - map: [ "enum.HumanoidVisualLayers.Handcuffs" ]
+      color: "#ffffff"
+      sprite: Objects/Misc/handcuffs.rsi
+      state: body-overlay-2
+      visible: false
+    - map: [ "ears" ]
+    - map: [ "id" ]
+    - map: [ "mask" ]
+    - map: [ "head" ]
+    - map: [ "clownedon" ]
+      sprite: "Effects/creampie.rsi"
+      state: "creampie_human"
+      visible: false
+  - type: Butcherable
+    butcheringType: Spike
+    spawned:
+    - id: FoodMeatRotten #gross!
+      amount: 2
+  - type: AlwaysRevolutionaryConvertible
+  - type: GhostTakeoverAvailable
+  - type: NpcFactionMember
+    factions:
+      - SimpleHostile
+  - type: GhostRole
+    makeSentient: true
+    name: ghost-role-information-goblin-name
+    description: ghost-role-information-goblin-description
+    rules: ghost-role-information-rules-team-antagonist
+
+- type: entity
+  name: goblin
+  id: MobGoblin
+  parent: MobBaseGoblin
+  description: A little green guy. It looks bad and smells worse.
