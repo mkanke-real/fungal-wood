@@ -1,0 +1,8 @@
+- type: entity
+  parent: ClothingNeckBase
+  id: ClothingNeckKingCape
+  name: the king's cape
+  description: The responsibilities of a king weigh heavy upon the wearer... mostly thanks to the sheer amount of fabric.
+  components:
+  - type: Sprite
+    sprite: _FungalWood/Clothing/Neck/kingcape.rsi
