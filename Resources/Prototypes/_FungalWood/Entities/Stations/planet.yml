@@ -1,0 +1,12 @@
+- type: entity
+  id: PlanetMap
+  parent:
+  - BaseStation
+  - BaseStationJobsSpawning
+  - BaseStationGateway
+  - BaseStationAlertLevels
+  - BaseStationAllEventsEligible
+  - BaseStationNanotrasen
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Transform

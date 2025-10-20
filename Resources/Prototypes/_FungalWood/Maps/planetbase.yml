@@ -1,0 +1,17 @@
+- type: gameMap
+  id: Planet
+  mapName: 'Planet'
+  mapPath: /Maps/_FungalWood/planetbase.yml
+  minPlayers: 0
+  maxRandomOffset: 0
+  randomRotation: false
+  stations:
+    Planetbase:
+      stationProto: PlanetMap
+      components:
+      - type: StationBiome
+        biome: Grasslands
+        mapLightColor: '#D8B059FF'
+      - type: StationJobs
+        availableJobs:
+          Peasant: [ -1, -1 ]
