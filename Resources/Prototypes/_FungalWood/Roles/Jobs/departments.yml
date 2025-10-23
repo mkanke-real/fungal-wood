@@ -5,7 +5,7 @@
   color: "#9FED58"
   weight: 100
   roles:
-  - King
+  - FWKing
 
 - type: department
   id: Guardsmen
@@ -14,8 +14,8 @@
   color: "#9FED58"
   weight: 50
   roles:
-  - GuardCaptain
-  - TownGuard
+  - FWGuardCaptain
+  - FWTownGuard
 
 - type: department
   id: Commoner
@@ -24,4 +24,4 @@
   color: "#9FED58"
   weight: -10
   roles:
-  - Peasant
+  - FWPeasant

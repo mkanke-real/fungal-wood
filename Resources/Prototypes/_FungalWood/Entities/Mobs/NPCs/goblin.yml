@@ -1,6 +1,6 @@
 - type: entity
   name: goblin
-  id: MobBaseGoblin
+  id: FWMobBaseGoblin
   parent: MobBaseAncestor
   description: goblin
   abstract: true
@@ -68,6 +68,6 @@
 
 - type: entity
   name: goblin
-  id: MobGoblin
-  parent: MobBaseGoblin
+  id: FWMobGoblin
+  parent: FWMobBaseGoblin
   description: A little green guy. It looks bad and smells worse.

@@ -1,16 +1,16 @@
 - type: entity
   parent: MaterialBase
-  id: MaterialWoodRaw
+  id: FWMaterialWoodRaw
   name: log
   suffix: Full
   components:
   - type: Material
   - type: PhysicalComposition
     materialComposition:
-      RawWood: 100
+      FWRawWood: 100
   - type: Stack
     count: 5
-    stackType: WoodRaw
+    stackType: FWWoodRaw
     baseLayer: base
     layerStates:
     - log
@@ -48,8 +48,8 @@
           Quantity: 10
 
 - type: entity
-  parent: MaterialWoodRaw
-  id: MaterialWoodRaw1
+  parent: FWMaterialWoodRaw
+  id: FWMaterialWoodRaw1
   suffix: Single
   components:
   - type: Stack

@@ -1,7 +1,7 @@
 - type: entity
   name: cudgel
   parent: BaseItem
-  id: Cudgel
+  id: FWWeaponCudgel
   description: A wooden club studded with steel, for the compliance of commoners.
   components:
   - type: Sprite

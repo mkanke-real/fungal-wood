@@ -1,13 +1,13 @@
 - type: job
-  id: GuardCaptain
+  id: FWGuardCaptain
   name: job-name-guard-captain
   description: job-description-guard-captain
-  playTimeTracker: JobGuardCaptain
-  startingGear: GuardCaptainGear
+  playTimeTracker: FWJobGuardCaptain
+  startingGear: FWGuardCaptainGear
   icon: "JobIconPassenger"
   supervisors: job-supervisors-king
 
 - type: startingGear
-  id: GuardCaptainGear
+  id: FWGuardCaptainGear
   equipment:
-    jumpsuit: ClothingUniformGuardsmanC
+    jumpsuit: FWClothingUniformGuardsmanCap

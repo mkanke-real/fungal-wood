@@ -1,5 +1,5 @@
 - type: entity
-  id: CarpentersTable
+  id: FWCarpentersTable
   parent: BaseMachine
   name: carpenter's table
   description: All the tools you need to work wood.
@@ -15,7 +15,7 @@
     runningState: icon
     defaultProductionAmount: 1
     staticPacks:
-    - WoodWorking
+    - FWWoodWorking
   - type: MaterialStorage
     ignoreColor: true
     whitelist:

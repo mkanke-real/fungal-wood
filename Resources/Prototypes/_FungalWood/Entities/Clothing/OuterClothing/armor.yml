@@ -1,6 +1,6 @@
 - type: entity
   parent: [ClothingOuterBaseLarge, AllowSuitStorageClothing]
-  id: ClothingOuterArmorPlateKnight
+  id: FWClothingOuterArmorPlateKnight
   name: knight's plate armor
   description: A suit of gleaming steel, forged for the defense of the kingdom.
   components:

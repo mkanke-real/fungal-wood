@@ -1,6 +1,6 @@
 - type: entity
   parent: ClothingUniformBase
-  id: ClothingUniformPeasant
+  id: FWClothingUniformPeasant
   name: geasant attire
   description: For the unwashed backbone of any kingdom.
   components:
@@ -11,7 +11,7 @@
 
 - type: entity
   parent: ClothingUniformBase
-  id: ClothingUniformGuardsman
+  id: FWClothingUniformGuardsman
   name: guardsman uniform
   description: bonk
   components:
@@ -22,7 +22,7 @@
 
 - type: entity
   parent: ClothingUniformBase
-  id: ClothingUniformGuardsmanC
+  id: FWClothingUniformGuardsmanCap
   name: guardsman captain uniform
   description: Bonk with authority.
   components:
@@ -33,7 +33,7 @@
 
 - type: entity
   parent: ClothingUniformBase
-  id: ClothingUniformKing
+  id: FWClothingUniformKing
   name: the king's robes
   description: Awarded at some farcical aquatic ceremony.
   components:

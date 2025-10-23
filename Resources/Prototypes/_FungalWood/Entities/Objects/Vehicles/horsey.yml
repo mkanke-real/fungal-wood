@@ -1,6 +1,6 @@
 - type: entity
   parent: BaseItem
-  id: HorseyShells
+  id: FWHorseyShells
   name: horse
   description: A horse. The vehicle of kings and common men alike.
   components:
@@ -16,7 +16,7 @@
   - type: FootstepModifier
     allowOnHeld: true
     footstepSoundCollection:
-      collection: FootstepHorse
+      collection: FWFootstepHorse
       params:
         volume: -7
         variation: 0.1

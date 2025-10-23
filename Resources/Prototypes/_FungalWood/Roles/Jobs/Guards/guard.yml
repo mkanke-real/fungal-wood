@@ -1,13 +1,13 @@
 - type: job
-  id: TownGuard
+  id: FWTownGuard
   name: job-name-guard
   description: job-description-guard
-  playTimeTracker: JobGuard
-  startingGear: GuardGear
+  playTimeTracker: FWJobGuard
+  startingGear: FWGuardGear
   icon: "JobIconPassenger"
   supervisors: job-supervisors-guard-captain
 
 - type: startingGear
-  id: GuardGear
+  id: FWGuardGear
   equipment:
-    jumpsuit: ClothingUniformGuardsman
+    jumpsuit: FWClothingUniformGuardsman

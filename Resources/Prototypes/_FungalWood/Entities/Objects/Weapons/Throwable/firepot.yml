@@ -1,6 +1,6 @@
 - type: entity
   parent: BaseItem
-  id: Firepot
+  id: FWFirepot
   name: firepot
   description: Break in case of goblins.
   components:

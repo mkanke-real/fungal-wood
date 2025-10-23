@@ -14,4 +14,4 @@
         mapLightColor: '#D8B059FF'
       - type: StationJobs
         availableJobs:
-          Peasant: [ -1, -1 ]
+          FWPeasant: [ -1, -1 ]

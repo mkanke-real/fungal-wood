@@ -1,6 +1,6 @@
 - type: material
-  id: RawWood
-  stackEntity: MaterialWoodRaw1
+  id: FWRawWood
+  stackEntity: FWMaterialWoodRaw1
   name: materials-wood-raw
   unit: materials-unit-log
   icon: { sprite: _FungalWood/Objects/Materials/materials.rsi, state: log }

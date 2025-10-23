@@ -1,13 +1,13 @@
 - type: job
-  id: Peasant
+  id: FWPeasant
   name: job-name-peasant
   description: job-description-peasant
-  playTimeTracker: JobPeasant
-  startingGear: PeasantGear
+  playTimeTracker: FWJobPeasant
+  startingGear: FWPeasantGear
   icon: "JobIconPassenger"
   supervisors: job-supervisors-everyone
 
 - type: startingGear
-  id: PeasantGear
+  id: FWPeasantGear
   equipment:
-    jumpsuit: ClothingUniformPeasant
+    jumpsuit: FWClothingUniformPeasant

@@ -1,7 +1,7 @@
 - type: entity
   name: wooden kite shield
   parent: BaseShield
-  id: ShieldWoodenKite
+  id: FWShieldWoodenKite
   description: A kite-shaped wooden shield.
   components:
     - type: Sprite

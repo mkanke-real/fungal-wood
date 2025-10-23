@@ -114,7 +114,7 @@ entities:
     - type: Transform
       pos: 3.5,2.5
       parent: 2
-- proto: SpawnPointPeasant
+- proto: FWSpawnPointPeasant
   entities:
   - uid: 14
     components:

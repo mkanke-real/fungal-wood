@@ -1,11 +1,11 @@
 - type: playTimeTracker
-  id: JobKing
+  id: FWJobKing
 
 - type: playTimeTracker
-  id: JobGuardCaptain
+  id: FWJobGuardCaptain
 
 - type: playTimeTracker
-  id: JobGuard
+  id: FWJobGuard
 
 - type: playTimeTracker
-  id: JobPeasant
+  id: FWJobPeasant

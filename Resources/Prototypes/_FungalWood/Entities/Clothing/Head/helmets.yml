@@ -1,6 +1,6 @@
 - type: entity
   parent: ClothingHeadHelmetBase
-  id: ClothingHeadHelmetKnight
+  id: FWClothingHeadHelmetKnight
   name: knight's helmet
   description: A knight's helmet offering full coverage of the head to deflect sword and arrowfire.
   components:

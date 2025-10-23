@@ -1,6 +1,6 @@
 - type: stack
-  id: WoodRaw
+  id: FWWoodRaw
   name: stack-wood-raw
   icon: { sprite: /Textures/Objects/Materials/materials.rsi, state: wood }
-  spawn: MaterialWoodRaw1
+  spawn: FWMaterialWoodRaw1
   maxCount: 5
