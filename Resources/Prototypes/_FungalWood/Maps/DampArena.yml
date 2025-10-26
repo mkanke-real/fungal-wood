@@ -1,5 +1,5 @@
 - type: gameMap
-  id: Planet
+  id: DampArena
   mapName: 'Damp Arena'
   mapPath: /Maps/_FungalWood/DampArena.yml
   minPlayers: 0

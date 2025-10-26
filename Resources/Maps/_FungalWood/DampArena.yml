@@ -52,6 +52,8 @@ entities:
     - type: Transform
       pos: -1.2119726,0.55859697
       parent: 1
+    - type: BecomesStation
+      id: DampArena
     - type: MapGrid
       chunks:
         0,0:
