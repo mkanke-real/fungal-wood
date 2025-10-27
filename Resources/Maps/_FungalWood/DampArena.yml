@@ -4,8 +4,8 @@ meta:
   engineVersion: 267.2.0
   forkId: ""
   forkVersion: ""
-  time: 10/25/2025 23:08:10
-  entityCount: 520
+  time: 10/27/2025 02:48:04
+  entityCount: 521
 maps:
 - 1
 grids:
@@ -52,8 +52,6 @@ entities:
     - type: Transform
       pos: -1.2119726,0.55859697
       parent: 1
-    - type: BecomesStation
-      id: DampArena
     - type: MapGrid
       chunks:
         0,0:
@@ -1716,6 +1714,13 @@ entities:
     components:
     - type: Transform
       pos: -5.5,-12.5
+      parent: 2
+- proto: SpawnPointObserver
+  entities:
+  - uid: 521
+    components:
+    - type: Transform
+      pos: 10.5,-18.5
       parent: 2
 - proto: Spear
   entities:
