@@ -1,4 +1,5 @@
-﻿using Robust.Shared.Prototypes;
+﻿using Robust.Shared.Audio;
+using Robust.Shared.Prototypes;
 using Robust.Shared.Serialization;
 using Robust.Shared.Serialization.TypeSerializers.Implementations.Custom;
 
@@ -50,6 +51,13 @@ public sealed partial class TimedSpawnerComponent : Component, ISerializationHoo
     /// </summary>
     [DataField(customTypeSerializer: typeof(TimeOffsetSerializer)), AutoPausedField]
     public TimeSpan NextFire = TimeSpan.Zero;
+
+    /// <summary>
+    /// FungalWood - Path to the sound to be played when an entity spawns. Null by default.
+    /// </summary>
+    [DataField, AutoNetworkedField]
+    [Access(Other = AccessPermissions.ReadWriteExecute)]
+    public SoundSpecifier? AudioOnSpawn;
 
     void ISerializationHooks.AfterDeserialization()
     {

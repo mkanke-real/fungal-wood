@@ -1,0 +1,7 @@
+- type: gamePreset
+  id: FWKingdomPreset
+  name: kingdom-title
+  showInVote: false
+  description: kingdom-description
+  rules:
+  - FWEventScheduler

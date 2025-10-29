@@ -1,0 +1,69 @@
+- type: entity
+  id: FWGoblinHole
+  name: goblin hole
+  description: A burrow for short, green, humanoid creatures to come crawling out of. Best to break it.
+  placement:
+    mode: SnapgridCenter
+  components:
+  - type: Transform
+    anchored: true
+  - type: Clickable
+  - type: InteractionOutline
+  - type: Sprite
+    sprite: _FungalWood/Structures/Specific/goblinhole.rsi
+    state: icon
+  - type: Icon
+    sprite: _FungalWood/Structures/Specific/goblinhole.rsi
+    state: icon
+  - type: Physics
+    bodyType: Static
+  - type: Fixtures
+    fixtures:
+      slips:
+        shape:
+          !type:PhysShapeCircle
+          radius: 0.3
+        layer:
+        - SlipLayer
+        hard: false
+      fix1:
+        shape:
+          !type:PhysShapeCircle
+          radius: 0.3
+  - type: Damageable
+    damageContainer: StructuralInorganic
+  - type: EmitSoundOnSpawn
+    sound:
+      path: /Audio/Items/shovel_dig.ogg
+      params:
+        pitch: 0.9
+        variation: 0.2
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 300
+      behaviors:
+      - !type:DoActsBehavior
+        acts: [ "Destruction" ]
+  - type: StepTrigger
+  - type: CollisionWake
+    enabled: false
+  - type: Slippery
+    slipSound: /Audio/Effects/plant_rustle.ogg
+    affectsSliding: false
+    slipData:
+      launchForwardsMultiplier: 0.5
+  - type: Timer
+  - type: TimedSpawner
+    prototypes:
+    - FWMobGoblin
+    chance: 0.2
+    intervalSeconds: 24 #0.75 gpm (goblins per minute) on average
+    minimumEntitiesSpawned: 1
+    maximumEntitiesSpawned: 2 #buddy system
+    audioOnSpawn:
+      path: /Audio/Items/shovel_dig.ogg
+      params:
+        pitch: 1.5
+        variation: 0.2
