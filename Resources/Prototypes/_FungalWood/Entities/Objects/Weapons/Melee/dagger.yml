@@ -1,0 +1,35 @@
+- type: entity
+  name: kidney dagger
+  parent: BaseKnife
+  id: FWWeaponKDagger
+  description: Bollocks!
+  components:
+  - type: Sprite
+    sprite: _FungalWood/Objects/Weapons/Melee/dagger.rsi
+    state: icon
+  - type: MeleeWeapon
+    autoAttack: true
+    range: 1
+    attackRate: 2
+    angle: 0
+    animation: WeaponArcThrust
+    damage:
+      types:
+        Piercing: 6
+  - type: Item
+    sprite: _FungalWood/Objects/Weapons/Melee/dagger.rsi
+  - type: SolutionContainerManager
+    solutions:
+      melee:
+        maxVol: 2
+  - type: MeleeChemicalInjector
+    solution: melee
+  - type: RefillableSolution
+    solution: melee
+  - type: InjectableSolution
+    solution: melee
+  - type: SolutionInjectOnEmbed
+    transferAmount: 2
+    solution: melee
+  - type: SolutionTransfer
+    maxTransferAmount: 2

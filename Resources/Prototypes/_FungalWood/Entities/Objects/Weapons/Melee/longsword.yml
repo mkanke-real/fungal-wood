@@ -1,0 +1,28 @@
+- type: entity
+  name: longsword
+  parent: BaseSword
+  id: FWWeaponLongsword
+  description: For king and country!
+  components:
+  - type: Sprite
+    sprite: _FungalWood/Objects/Weapons/Melee/longsword.rsi
+  - type: MeleeWeapon
+    range: 1.5
+    attackRate: 1
+    damage:
+      types:
+        Slash: 16
+    soundHit:
+      path: /Audio/Weapons/bladeslice.ogg
+  - type: Wieldable
+  - type: IncreaseDamageOnWield
+    damage:
+      types:
+        Slash: 8
+  - type: Item
+    size: Ginormous
+  - type: Clothing
+    sprite: _FungalWood/Objects/Weapons/Melee/longsword.rsi
+    slots:
+    - Back
+    - SuitStorage
