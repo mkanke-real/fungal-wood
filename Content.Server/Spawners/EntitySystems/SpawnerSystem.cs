@@ -1,4 +1,5 @@
 using Content.Server.Spawners.Components;
+using Robust.Shared.Audio.Systems;
 using Robust.Shared.Random;
 using Robust.Shared.Timing;
 
@@ -8,6 +9,7 @@ public sealed class SpawnerSystem : EntitySystem
 {
     [Dependency] private readonly IGameTiming _timing = default!;
     [Dependency] private readonly IRobustRandom _random = default!;
+    [Dependency] private readonly SharedAudioSystem _audio = default!;
 
     public override void Initialize()
     {
@@ -50,6 +52,9 @@ public sealed class SpawnerSystem : EntitySystem
         {
             var entity = _random.Pick(component.Prototypes);
             SpawnAtPosition(entity, coordinates);
+
+            if(component.AudioOnSpawn != null) //fungalwood begin - play noise on spawn
+                _audio.PlayPvs(component.AudioOnSpawn, uid); //fungalwood end
         }
     }
 }

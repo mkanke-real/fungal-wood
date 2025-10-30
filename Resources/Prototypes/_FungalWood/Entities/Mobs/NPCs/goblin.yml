@@ -56,18 +56,21 @@
     - id: FoodMeatRotten #gross!
       amount: 2
   - type: AlwaysRevolutionaryConvertible
-  - type: GhostTakeoverAvailable
-  - type: NpcFactionMember
-    factions:
-      - SimpleHostile
-  - type: GhostRole
-    makeSentient: true
-    name: ghost-role-information-goblin-name
-    description: ghost-role-information-goblin-description
-    rules: ghost-role-information-rules-team-antagonist
 
 - type: entity
   name: goblin
   id: FWMobGoblin
   parent: FWMobBaseGoblin
   description: A little green guy. It looks bad and smells worse.
+  components:
+  - type: GhostTakeoverAvailable
+  - type: NpcFactionMember
+    factions:
+    - SimpleHostile
+  - type: GhostRole
+    makeSentient: true
+    name: ghost-role-information-goblin-name
+    description: ghost-role-information-goblin-description
+    rules: ghost-role-information-rules-goblin
+    mindRoles:
+    - FWMindRoleGhostRoleGoblin

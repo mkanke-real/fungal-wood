@@ -1,0 +1,5 @@
+- type: roleType
+  id: FWGoblinRoleType
+  name: role-type-goblin-name
+  color: '#1ebd00'
+  symbol: "⚔"

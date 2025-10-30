@@ -1,0 +1,14 @@
+- type: entity
+  id: FWEventScheduler
+  parent: BaseGameRule
+  components:
+  - type: BasicStationEventScheduler
+    scheduledGameRules: !type:NestedSelector
+      tableId: FWGameRulesTable
+
+- type: entityTable
+  id: FWGameRulesTable
+  table: !type:AllSelector
+    children:
+    - !type:NestedSelector
+      tableId: FWEventsTable

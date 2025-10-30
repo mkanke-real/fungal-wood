@@ -1,0 +1,8 @@
+- type: entity
+  parent: [ BaseMindRoleAntag, MindRoleGhostRoleNeutral ]
+  id: FWMindRoleGhostRoleGoblin
+  name: Ghost Role (Goblin)
+  components:
+  - type: MindRole
+    roleType: FWGoblinRoleType
+    antagPrototype: GenericTeamAntagonist

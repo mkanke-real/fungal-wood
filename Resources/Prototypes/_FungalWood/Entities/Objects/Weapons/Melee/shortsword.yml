@@ -1,0 +1,27 @@
+- type: entity
+  name: shortsword
+  parent: BaseSword
+  id: FWWeaponShortsword
+  description: For when you drop your longsword
+  components:
+  - type: Sprite
+    sprite: _FungalWood/Objects/Weapons/Melee/shortsword.rsi
+  - type: MeleeWeapon
+    range: 1.25
+    attackRate: 1.5
+    wideAnimationRotation: -130
+    damage:
+      types:
+        Slash: 12
+    soundHit:
+      path: /Audio/Weapons/bladeslice.ogg
+  - type: Tag
+    tags:
+    - FWShortsword
+  - type: Item
+    size: Normal
+    shape:
+    - 0,0,1,2
+    storedSprite:
+      state: storage
+      sprite: _FungalWood/Objects/Weapons/Melee/shortsword.rsi

@@ -1,0 +1,31 @@
+- type: entity
+  parent: [ClothingBeltBase, ClothingSlotBase]
+  id: FWClothingBeltShortsheath
+  name: shortsword sheath
+  description: It houses a shortsword.
+  components:
+  - type: Sprite
+    sprite: _FungalWood/Clothing/Belt/shortsheath.rsi
+    state: sheath
+  - type: Clothing
+    sprite: _FungalWood/Clothing/Belt/shortsheath.rsi
+  - type: Item
+    size: Ginormous
+  - type: ItemSlots
+    slots:
+      item:
+        name: Shortsword
+        insertVerbText: sheath-insert-verb
+        ejectVerbText: sheath-eject-verb
+        insertSound: /Audio/Items/sheath.ogg
+        ejectSound: /Audio/Items/unsheath.ogg
+        whitelist:
+          tags:
+          - FWShortsword
+  - type: ItemMapper
+    mapLayers:
+      sheath-sword:
+        whitelist:
+          tags:
+          - FWShortsword
+  - type: Appearance
